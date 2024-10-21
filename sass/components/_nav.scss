@@ -1,0 +1,39 @@
+@import '_variable';
+@import '../mixins/group-mixins';
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    padding: 10px;
+    background: $main-color;
+    ul {
+        display: flex;
+        column-gap: 40px;
+        list-style-type: none;
+        li {
+            a {
+                color: $white-color;
+                text-decoration: none;
+            }
+
+            a.pages {
+                color: $button-color;
+            }
+        }
+
+        li.underline-pages {
+            border-bottom: 2px solid $button-color;
+        }
+
+        button {
+            @include button;
+            cursor: pointer;
+        }
+
+        button.btn-white {
+          @include btn;
+        }
+    }
+}
