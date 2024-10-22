@@ -2,25 +2,31 @@
 @import '../mixins/group-mixins';
 
 footer {
-    background: $footer-color;
-    @include center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    height: 178px;
-    h2 {
-        color: $white-color;
-        margin-bottom: 10px;
+    background: $footer-color ;
+    color: $white-color;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    img {
+        width: 150px;
+        height: auto;
     }
-    .partner-logo {
-        width: 40%;
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        img {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
+    .contact-group {
+        p {
+            font-size: $font-size-p;
+            color: $button-color;
+            margin-top: 10px;
         }
     }
-    
+    .follow-us {
+        div.social-media {
+            img {
+                width: 30px;
+                height: 30px;
+                border-radius: 15px;
+                margin-right: 20px;
+                margin-top: 10px;
+            }
+        }
+    }
 }
