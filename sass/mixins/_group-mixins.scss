@@ -16,3 +16,9 @@
     background: none;
     border: solid 1px $white-color;
 }
+
+@mixin logo-partner {
+    width: 100px;
+    height: 100px;
+    border: 50px;
+}

@@ -1,0 +1,26 @@
+@import '_variable';
+@import '../mixins/group-mixins';
+
+footer {
+    background: $footer-color;
+    @include center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 178px;
+    h2 {
+        color: $white-color;
+        margin-bottom: 10px;
+    }
+    .partner-logo {
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+    }
+    
+}
