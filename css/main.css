@@ -70,6 +70,96 @@ nav ul button.btn-white {
   font-weight: bold;
 }
 
+.container {
+  width: 80%;
+}
+
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #1F2839;
+}
+
+.track img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+.track-info {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.track-info h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.track-info p {
+  margin: 5px 0;
+  color: gray;
+  font-size: 14px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.controls button, .buy-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.controls button img {
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.progress-bar {
+  width: 100px;
+  height: 5px;
+  background-color: #FFFFFF;
+  margin: 0 10px;
+  position: relative;
+}
+
+.progress-bar span {
+  display: block;
+  height: 100%;
+  background-color: #3D7F9F;
+  width: 50%;
+}
+
+.buy-button {
+  border: 1px solid #EF672A;
+  padding: 5px 15px;
+  border-radius: 3px;
+  color: #EF672A;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+  background-color: #EF672A;
+  color: #FFFFFF;
+}
+
 footer {
   background: #1F2839;
   color: #FFFFFF;
@@ -138,15 +228,4 @@ aside .card-container {
   flex-wrap: wrap;
   -moz-column-gap: 100px;
        column-gap: 100px;
-}
-aside .Latest-tracks {
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #FFFFFF;
-  margin: 20px 0px;
-}
-aside .radio-container .box {
-  display: flex;
 }

@@ -1,0 +1,75 @@
+.container {
+    width: 80%;
+}
+h1 {
+    text-align: center;
+    color: $white-color;
+}
+.track {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid $footer-color;
+}
+.track img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.track-info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+.track-info h2 {
+    margin: 0;
+    font-size: 18px;
+    color: $white-color;
+}
+.track-info p {
+    margin: 5px 0;
+    color: gray;
+    font-size: 14px;
+}
+.controls {
+    display: flex;
+    align-items: center;
+}
+.controls button, .buy-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.controls button img {
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.progress-bar {
+    width: 100px;
+    height: 5px;
+    background-color: $white-color;
+    margin: 0 10px;
+    position: relative;
+}
+.progress-bar span {
+    display: block;
+    height: 100%;
+    background-color: $secondary-color;
+    width: 50%;
+}
+.buy-button {
+    border: 1px solid $button-color;
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: $button-color;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.buy-button:hover {
+    background-color: $button-color;
+    color: $white-color;
+}
