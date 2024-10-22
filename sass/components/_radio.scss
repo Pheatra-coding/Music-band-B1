@@ -4,6 +4,7 @@
 h1 {
     text-align: center;
     color: $white-color;
+    margin-bottom: 20px;
 }
 .track {
     display: flex;
@@ -22,6 +23,11 @@ h1 {
 .track-info {
     flex-grow: 1;
     margin-left: 20px;
+}
+
+.track-info audio {
+    height: 20px;
+    width: 50%;
 }
 .track-info h2 {
     margin: 0;

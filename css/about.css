@@ -7,6 +7,8 @@ nav {
   padding: 10px;
   background: #141B29;
   border: 1px solid #1F2839;
+  position: fixed;
+  width: 100%;
 }
 nav .logo img {
   width: 80px;
@@ -51,10 +53,23 @@ footer img {
   width: 150px;
   height: 90px;
 }
+footer .contact-group h2 {
+  font-size: 24px;
+  font-weight: 200;
+}
 footer .contact-group p {
   font-size: 12px;
-  color: #EF672A;
+  color: #FFFFFF;
   margin-top: 10px;
+}
+footer .contact-group strong {
+  font-weight: 100;
+  color: #EF672A;
+  margin-left: 6px;
+}
+footer .follow-us h2 {
+  font-size: 24px;
+  font-weight: 200;
 }
 footer .follow-us div.social-media img {
   width: 30px;
