@@ -44,3 +44,12 @@ nav ul button.btn-white {
 body {
   font-family: "Poppins", sans-serif;
 }
+
+main {
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=library.css.map */
