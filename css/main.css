@@ -79,7 +79,7 @@ footer {
 }
 footer img {
   width: 150px;
-  height: auto;
+  height: 90px;
 }
 footer .contact-group p {
   font-size: 12px;
@@ -138,4 +138,15 @@ aside .card-container {
   flex-wrap: wrap;
   -moz-column-gap: 100px;
        column-gap: 100px;
+}
+aside .Latest-tracks {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  margin: 20px 0px;
+}
+aside .radio-container .box {
+  display: flex;
 }

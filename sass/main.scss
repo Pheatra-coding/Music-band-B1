@@ -51,4 +51,18 @@ main {
             column-gap: 100px;
             
         }
+
+        .Latest-tracks {
+            font-size: $font-size-h4;
+            @include center;
+            color: $white-color;
+            margin: 20px 0px;
+        }
+        
+        .radio-container {
+            .box {
+                display: flex;
+            }
+        }
 }
+
