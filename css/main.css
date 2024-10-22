@@ -6,11 +6,16 @@ nav {
   text-transform: uppercase;
   padding: 10px;
   background: #141B29;
+  border: 1px solid #1F2839;
+}
+nav .logo img {
+  width: 80px;
+  height: auto;
 }
 nav ul {
   display: flex;
-  -moz-column-gap: 40px;
-       column-gap: 40px;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
   list-style-type: none;
 }
 nav ul li a {
@@ -35,6 +40,60 @@ nav ul button.btn-white {
   border: solid 1px #FFFFFF;
 }
 
+.cards {
+  width: 40%;
+  margin-bottom: 30px;
+}
+.cards .card img {
+  width: 100%;
+  height: 300px;
+  padding: 8px;
+  border: solid 1px #3D7F9F;
+}
+.cards .card .group-pf {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.cards .card .group-pf img {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  border: none;
+}
+.cards .card .group-pf .group-p p {
+  color: #3D7F9F;
+  font-size: 12px;
+}
+.cards .card .group-pf .group-p .singer-name {
+  color: #EF672A;
+  font-weight: bold;
+}
+
+footer {
+  background: #1F2839;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+footer img {
+  width: 150px;
+  height: 90px;
+}
+footer .contact-group p {
+  font-size: 12px;
+  color: #EF672A;
+  margin-top: 10px;
+}
+footer .follow-us div.social-media img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -43,4 +102,55 @@ nav ul button.btn-white {
 
 body {
   font-family: "Poppins", sans-serif;
+<<<<<<< HEAD
 }/*# sourceMappingURL=main.css.map */
+=======
+  background: #141B29;
+}
+
+main section img {
+  width: 100%;
+  height: 70vh;
+}
+main section .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -50vh;
+  margin-bottom: 40vh;
+}
+main section .text h2 {
+  font-size: 28px;
+  color: #3D7F9F;
+}
+main section .text h1 {
+  font-size: 36px;
+  color: #FFFFFF;
+}
+main section .text p {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+aside {
+  margin-left: 110px;
+}
+aside .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+}
+aside .Latest-tracks {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  margin: 20px 0px;
+}
+aside .radio-container .box {
+  display: flex;
+}
+>>>>>>> 11a7c6774a41b069d7e40b7e3f66cfcc2096ce3a

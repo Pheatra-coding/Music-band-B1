@@ -6,11 +6,16 @@ nav {
   text-transform: uppercase;
   padding: 10px;
   background: #141B29;
+  border: 1px solid #1F2839;
+}
+nav .logo img {
+  width: 80px;
+  height: auto;
 }
 nav ul {
   display: flex;
-  -moz-column-gap: 40px;
-       column-gap: 40px;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
   list-style-type: none;
 }
 nav ul li a {
@@ -35,6 +40,30 @@ nav ul button.btn-white {
   border: solid 1px #FFFFFF;
 }
 
+footer {
+  background: #1F2839;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+footer img {
+  width: 150px;
+  height: 90px;
+}
+footer .contact-group p {
+  font-size: 12px;
+  color: #EF672A;
+  margin-top: 10px;
+}
+footer .follow-us div.social-media img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -43,4 +72,9 @@ nav ul button.btn-white {
 
 body {
   font-family: "Poppins", sans-serif;
+<<<<<<< HEAD
 }/*# sourceMappingURL=contact.css.map */
+=======
+  background: #141B29;
+}
+>>>>>>> 11a7c6774a41b069d7e40b7e3f66cfcc2096ce3a
