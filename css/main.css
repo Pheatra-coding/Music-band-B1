@@ -113,37 +113,10 @@ h1 {
   font-size: 14px;
 }
 
-.controls {
-  display: flex;
-  align-items: center;
-}
-
-.controls button, .buy-button {
+.buy-button {
   background-color: transparent;
   border: none;
   cursor: pointer;
-}
-
-.controls button img {
-  width: 25px;
-  height: 25px;
-  border-radius: 15px;
-  margin-right: 10px;
-}
-
-.progress-bar {
-  width: 100px;
-  height: 5px;
-  background-color: #FFFFFF;
-  margin: 0 10px;
-  position: relative;
-}
-
-.progress-bar span {
-  display: block;
-  height: 100%;
-  background-color: #3D7F9F;
-  width: 50%;
 }
 
 .buy-button {

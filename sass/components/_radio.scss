@@ -33,34 +33,15 @@ h1 {
     color: gray;
     font-size: 14px;
 }
-.controls {
-    display: flex;
-    align-items: center;
-}
-.controls button, .buy-button {
+
+.buy-button {
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
-.controls button img {
-    width: 25px;
-    height: 25px;
-    border-radius: 15px;
-    margin-right: 10px;
-}
-.progress-bar {
-    width: 100px;
-    height: 5px;
-    background-color: $white-color;
-    margin: 0 10px;
-    position: relative;
-}
-.progress-bar span {
-    display: block;
-    height: 100%;
-    background-color: $secondary-color;
-    width: 50%;
-}
+
+
+
 .buy-button {
     border: 1px solid $button-color;
     padding: 5px 15px;
@@ -69,6 +50,7 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
 .buy-button:hover {
     background-color: $button-color;
     color: $white-color;
