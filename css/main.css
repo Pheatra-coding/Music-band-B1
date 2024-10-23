@@ -8,6 +8,8 @@ nav {
   background: #141B29;
   border: 1px solid #1F2839;
   position: fixed;
+  left: 0;
+  top: 0;
   width: 100%;
 }
 nav .logo img {
@@ -79,7 +81,8 @@ nav ul button.btn-white {
 h1 {
   text-align: center;
   color: #FFFFFF;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .track {
@@ -92,8 +95,8 @@ h1 {
 }
 
 .track img {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 5px;
@@ -110,6 +113,7 @@ h1 {
 }
 
 .track-info h2 {
+  font-weight: 300;
   margin: 0;
   font-size: 18px;
   color: #FFFFFF;
@@ -162,7 +166,7 @@ footer .contact-group p {
   margin-top: 10px;
 }
 footer .contact-group strong {
-  font-weight: 100;
+  font-weight: 300;
   color: #EF672A;
   margin-left: 6px;
 }

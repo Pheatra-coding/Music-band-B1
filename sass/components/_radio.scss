@@ -4,7 +4,8 @@
 h1 {
     text-align: center;
     color: $white-color;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .track {
     display: flex;
@@ -15,8 +16,8 @@ h1 {
     border-bottom: 1px solid $footer-color;
 }
 .track img {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     border-radius: 5px;
 }
@@ -30,6 +31,7 @@ h1 {
     width: 50%;
 }
 .track-info h2 {
+    font-weight: 300;
     margin: 0;
     font-size: 18px;
     color: $white-color;

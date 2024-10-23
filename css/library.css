@@ -8,6 +8,8 @@ nav {
   background: #141B29;
   border: 1px solid #1F2839;
   position: fixed;
+  left: 0;
+  top: 0;
   width: 100%;
 }
 nav .logo img {
@@ -63,7 +65,7 @@ footer .contact-group p {
   margin-top: 10px;
 }
 footer .contact-group strong {
-  font-weight: 100;
+  font-weight: 300;
   color: #EF672A;
   margin-left: 6px;
 }
