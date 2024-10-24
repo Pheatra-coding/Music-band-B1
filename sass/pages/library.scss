@@ -91,7 +91,6 @@ aside {
 
         li {
             margin-bottom: 10px;
-
             a {
                 background: $footer-color;
                 color: $white-color;
@@ -105,6 +104,11 @@ aside {
                 &:hover {
                     background-color: $secondary-color;
                 }
+            }
+            .white {
+                background: $white-color;
+                color: $main-color;
+                font-weight: 500;
             }
         }
 

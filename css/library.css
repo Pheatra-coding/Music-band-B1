@@ -178,6 +178,11 @@ aside .nav li a {
 aside .nav li a:hover {
   background-color: #3D7F9F;
 }
+aside .nav li .white {
+  background: #FFFFFF;
+  color: #141B29;
+  font-weight: 500;
+}
 aside .nav li:last-child a {
   background-color: #EF672A;
 }
