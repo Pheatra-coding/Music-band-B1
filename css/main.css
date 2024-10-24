@@ -83,6 +83,7 @@ h1 {
   color: #FFFFFF;
   margin-bottom: 30px;
   margin-top: 30px;
+  margin-left: 130px;
 }
 
 .track {
@@ -213,10 +214,13 @@ main section .text h2 {
 main section .text h1 {
   font-size: 36px;
   color: #FFFFFF;
+  margin-left: -8px;
+  margin-top: -10px;
 }
 main section .text p {
   font-size: 14px;
   color: #FFFFFF;
+  margin-top: -20px;
 }
 
 aside {

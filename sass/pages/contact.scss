@@ -40,13 +40,40 @@ main {
             font-weight: 400;
         }
         .contact {
+            width: 80%;
             h2 {
+                color: gray;
                 text-align: center;
                 font-size: $font-size-h4;
             }
             .line-contact {
                 border: 1px solid $secondary-color ;
-                width: 300px;
+                width: 340px;
+                margin-bottom: 30px;
+                margin-left: 35%;
+            }
+            .group-contact {
+                display: flex;
+                justify-content: space-between;
+                .group {
+                    margin-top: 30px;
+                    margin-left: 40px;
+                    margin-bottom: -20px;
+                    .call {
+                        display: flex;
+                        align-items: center;
+                        h3 {
+                            color: $secondary-color;
+                            margin-left: 14px;
+                            font-weight: 500;
+                        }
+                    }
+                    p {
+                        color: $white-color;
+                        font-size: $font-size-p;
+                        font-weight: 200;
+                    }
+                }
             }
         }
         .logo_form{
@@ -132,9 +159,22 @@ main {
                    }
                 }
             }
-            
-            
-        
+        }
+    }
+    .map-container {
+        margin-left: 10%;
+        margin-bottom: 70px;
+        h2 {
+            color: gray;
+        }
+        h3 {
+            color: white;
+            font-weight: 400;
+            margin-bottom: 20px;
+
+        }
+        strong {
+            color: $button-color;
         }
     }
 }

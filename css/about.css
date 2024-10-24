@@ -91,3 +91,93 @@ body {
   font-family: "Poppins", sans-serif;
   background: #141B29;
 }
+
+img {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-us {
+  text-align: center;
+  padding: 50px 0;
+}
+.about-us .about-heading h1 {
+  font-size: 36px;
+  margin-top: -40px;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+.about-us .about-heading h2 {
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.about-us .about-content p {
+  margin-bottom: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  color: #3D7F9F;
+}
+
+.mission-vision {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.mission-vision .card {
+  background-color: #1F2839;
+  padding: 20px;
+  margin: 0 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+.mission-vision .card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+.mission-vision .card p {
+  font-size: 16px;
+  color: #77b0cb;
+}
+
+.team-section {
+  margin-top: 50px;
+}
+.team-section h2 {
+  font-size: 30px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.team-section .team-cards {
+  display: flex;
+  justify-content: center;
+}
+.team-section .team-cards .team-card {
+  background-color: #1F2839;
+  padding: 20px;
+  margin: 0 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+.team-section .team-cards .team-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.team-section .team-cards .team-card h4 {
+  margin-bottom: 5px;
+}
+.team-section .team-cards .team-card p {
+  font-size: 14px;
+  color: white;
+}
