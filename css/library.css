@@ -89,103 +89,14 @@ footer .follow-us div.social-media img {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #141B29;
 }
 
 main {
-  margin-top: 8%;
-}
-
-.search-button {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-left: 25%;
-}
-.search-button .group-search {
-  display: flex;
-  align-items: center;
-  background-color: #1F2839;
-  padding: 10px;
-  width: 400px;
-}
-.search-button .group-search input[type=text] {
-  background-color: transparent;
-  border: none;
-  color: #FFFFFF;
-  font-size: 12px;
   width: 100%;
-  padding-left: 10px;
-}
-.search-button .group-search input[type=text]:focus {
-  outline: none;
-}
-.search-button .group-search input[type=text]::-moz-placeholder {
-  color: #77b0cb;
-}
-.search-button .group-search input[type=text]::placeholder {
-  color: #77b0cb;
-}
-.search-button .group-search .icon {
-  width: 20px;
-  height: 20px;
-  background-image: url("search-icon.svg"); /* Add your search icon here */
-  background-size: cover;
-}
-.search-button h3 {
-  color: #FFFFFF;
-  font-size: 16px;
-  margin: 0;
-}
-.search-button button {
-  background-color: #EF672A;
-  color: #FFFFFF;
-  border: none;
-  padding: 12px 20px;
-  font-size: 12px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.search-button button:hover {
-  background-color: #d64d10;
-}
-
-aside {
-  background-color: #141B29;
-  padding: 20px;
-}
-aside .nav {
-  list-style: none;
+  height: 200vh;
   display: flex;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
-  width: 80%;
-  margin: auto;
-}
-aside .nav li {
-  margin-bottom: 10px;
-}
-aside .nav li a {
-  background: #1F2839;
-  color: #FFFFFF;
-  font-size: 16px;
-  text-decoration: none;
-  display: block;
-  padding: 10px 15px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-aside .nav li a:hover {
-  background-color: #3D7F9F;
-}
-aside .nav li .white {
-  background: #FFFFFF;
-  color: #141B29;
-  font-weight: 500;
-}
-aside .nav li:last-child a {
-  background-color: #EF672A;
-}
-aside .nav li:last-child a:hover {
-  background-color: #d64d10;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #141B29;
 }
