@@ -7,6 +7,11 @@ nav {
   padding: 10px;
   background: #141B29;
   border: 1px solid #1F2839;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 nav .logo img {
   width: 80px;
@@ -51,16 +56,29 @@ footer img {
   width: 150px;
   height: 90px;
 }
+footer .contact-group h2 {
+  font-size: 24px;
+  font-weight: 200;
+}
 footer .contact-group p {
   font-size: 12px;
-  color: #EF672A;
+  color: #FFFFFF;
   margin-top: 10px;
+}
+footer .contact-group strong {
+  font-weight: 300;
+  color: #EF672A;
+  margin-left: 6px;
+}
+footer .follow-us h2 {
+  font-size: 24px;
+  font-weight: 200;
 }
 footer .follow-us div.social-media img {
   width: 30px;
   height: 30px;
   border-radius: 15px;
-  margin-right: 20px;
+  margin-right: 8px;
   margin-top: 10px;
 }
 
@@ -72,18 +90,101 @@ footer .follow-us div.social-media img {
 
 body {
   font-family: "Poppins", sans-serif;
-<<<<<<< HEAD
+  background: #141B29;
 }
 
 main {
-  width: 100%;
-  height: 200vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}/*# sourceMappingURL=library.css.map */
-=======
-  background: #141B29;
+  margin-top: 8%;
 }
->>>>>>> 11a7c6774a41b069d7e40b7e3f66cfcc2096ce3a
+
+.search-button {
+  margin-left: 25%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.search-button .group-search {
+  display: flex;
+  align-items: center;
+  background-color: #1F2839;
+  padding: 10px;
+  width: 400px;
+}
+.search-button .group-search input[type=text] {
+  background-color: transparent;
+  border: none;
+  color: #3D7F9F;
+  font-size: 12px;
+  width: 100%;
+  padding-left: 10px;
+}
+.search-button .group-search input[type=text]:focus {
+  outline: none;
+}
+.search-button .group-search input[type=text]::-moz-placeholder {
+  color: #3D7F9F;
+}
+.search-button .group-search input[type=text]::placeholder {
+  color: #3D7F9F;
+}
+.search-button .group-search .icon {
+  width: 20px;
+  height: 20px;
+  background-image: url(https://www.iconpacks.net/icons/2/free-search-icon-2911-thumb.png);
+  background-size: cover;
+}
+.search-button h3 {
+  color: #FFFFFF;
+  font-size: 16px;
+  margin: 0;
+}
+.search-button button {
+  background-color: #EF672A;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.search-button button:hover {
+  background-color: #d64d10;
+}
+
+aside {
+  background-color: #141B29;
+  padding: 20px;
+}
+aside .nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  width: 80%;
+  margin: auto;
+}
+aside .nav li {
+  margin-bottom: 10px;
+  background: #1F2839;
+  border-radius: 6px;
+}
+aside .nav li a {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+aside .nav li a:hover {
+  background-color: #3D7F9F;
+}
+aside .nav li .white {
+  background: #FFFFFF;
+  color: #1F2839;
+  font-weight: 400;
+}/*# sourceMappingURL=library.css.map */

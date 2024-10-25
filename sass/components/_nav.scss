@@ -9,6 +9,11 @@ nav {
     padding: 10px;
     background: $main-color;
     border: 1px solid $footer-color;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
     .logo {
         img {
             width: 80px;

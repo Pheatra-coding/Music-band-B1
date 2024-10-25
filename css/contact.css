@@ -7,6 +7,11 @@ nav {
   padding: 10px;
   background: #141B29;
   border: 1px solid #1F2839;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 100%;
 }
 nav .logo img {
   width: 80px;
@@ -51,16 +56,29 @@ footer img {
   width: 150px;
   height: 90px;
 }
+footer .contact-group h2 {
+  font-size: 24px;
+  font-weight: 200;
+}
 footer .contact-group p {
   font-size: 12px;
-  color: #EF672A;
+  color: #FFFFFF;
   margin-top: 10px;
+}
+footer .contact-group strong {
+  font-weight: 300;
+  color: #EF672A;
+  margin-left: 6px;
+}
+footer .follow-us h2 {
+  font-size: 24px;
+  font-weight: 200;
 }
 footer .follow-us div.social-media img {
   width: 30px;
   height: 30px;
   border-radius: 15px;
-  margin-right: 20px;
+  margin-right: 8px;
   margin-top: 10px;
 }
 
@@ -72,9 +90,160 @@ footer .follow-us div.social-media img {
 
 body {
   font-family: "Poppins", sans-serif;
-<<<<<<< HEAD
-}/*# sourceMappingURL=contact.css.map */
-=======
   background: #141B29;
 }
->>>>>>> 11a7c6774a41b069d7e40b7e3f66cfcc2096ce3a
+
+main section img {
+  margin-top: 80px;
+  width: 100%;
+  height: 70vh;
+}
+main section h2 {
+  margin-top: 20px;
+  margin-left: 10%;
+  color: rgb(141, 135, 135);
+}
+main aside {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main aside h2 {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+main aside .contact {
+  width: 80%;
+}
+main aside .contact h2 {
+  color: gray;
+  text-align: center;
+  font-size: 20px;
+}
+main aside .contact .line-contact {
+  border: 1px solid #3D7F9F;
+  width: 340px;
+  margin-bottom: 30px;
+  margin-left: 35%;
+}
+main aside .contact .group-contact {
+  display: flex;
+  justify-content: space-between;
+}
+main aside .contact .group-contact .group {
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: -20px;
+}
+main aside .contact .group-contact .group .call {
+  display: flex;
+  align-items: center;
+}
+main aside .contact .group-contact .group .call h3 {
+  color: #3D7F9F;
+  margin-left: 14px;
+  font-weight: 500;
+}
+main aside .contact .group-contact .group p {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 200;
+}
+main aside .logo_form img {
+  width: 150px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+main aside .form {
+  margin-top: 10px;
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main aside .form .form_left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+main aside .form .form_left input {
+  outline: none;
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+}
+main aside .form .form_left button {
+  display: flex;
+  justify-content: center;
+  width: 94.4%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #EF672A;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+main aside .form .form_left button:hover {
+  transform: scale(1.05);
+}
+main aside .form .form_middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main aside .form .form_middle h3 {
+  color: rgba(255, 255, 255, 0.377);
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+main aside .form .form_middle .line {
+  border: 1px solid #1F2839;
+  height: 14vh;
+}
+main aside .form .form_right {
+  margin-top: 10px;
+  width: 40%;
+}
+main aside .form .form_right .social-login {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+main aside .form .form_right .social-login .social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #FFFFFF;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+main aside .form .form_right .social-login .social button {
+  border: none;
+  background: none;
+  color: rgb(175, 166, 166);
+}
+main .map-container {
+  margin-left: 10%;
+  margin-bottom: 70px;
+}
+main .map-container h2 {
+  color: gray;
+}
+main .map-container h3 {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+main .map-container strong {
+  color: #EF672A;
+}/*# sourceMappingURL=contact.css.map */

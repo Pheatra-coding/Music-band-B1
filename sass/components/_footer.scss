@@ -12,19 +12,32 @@ footer {
         height: 90px;
     }
     .contact-group {
+        h2 {
+            font-size: $font-size-h3;
+            font-weight: 200;
+        }
         p {
             font-size: $font-size-p;
-            color: $button-color;
+            color: $white-color;
             margin-top: 10px;
+        }
+        strong {
+            font-weight: 300;
+            color: $button-color;
+            margin-left: 6px;
         }
     }
     .follow-us {
+        h2 {
+            font-size: $font-size-h3;
+            font-weight: 200;
+        }
         div.social-media {
             img {
                 width: 30px;
                 height: 30px;
                 border-radius: 15px;
-                margin-right: 20px;
+                margin-right: 8px;
                 margin-top: 10px;
             }
         }

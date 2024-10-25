@@ -1,0 +1,66 @@
+.container {
+    width: 80%;
+}
+h1 {
+    text-align: center;
+    color: $white-color;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+.track {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid $footer-color;
+}
+.track img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.track-info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.track-info audio {
+    height: 20px;
+    width: 50%;
+}
+.track-info h2 {
+    font-weight: 300;
+    margin: 0;
+    font-size: 18px;
+    color: $white-color;
+}
+.track-info p {
+    margin: 5px 0;
+    color: gray;
+    font-size: 14px;
+}
+
+.buy-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.buy-button {
+    border: 1px solid $button-color;
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: $button-color;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: $button-color;
+    color: $white-color;
+}
