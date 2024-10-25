@@ -97,7 +97,7 @@ main {
 }
 
 .search-button {
-  margin-left: 22%;
+  margin-left: 25%;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -148,5 +148,48 @@ main {
   transition: background-color 0.3s ease;
 }
 .search-button button:hover {
+  background-color: #d64d10;
+}
+
+aside {
+  background-color: #141B29;
+  padding: 20px;
+}
+aside .nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  width: 80%;
+  margin: auto;
+}
+aside .nav li {
+  margin-bottom: 10px;
+  background: #1F2839;
+  border-radius: 6px;
+}
+aside .nav li a {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+aside .nav li a:hover {
+  background-color: #3D7F9F;
+}
+aside .nav li .white {
+  background: #FFFFFF;
+  color: #1F2839;
+  font-weight: 400;
+}
+aside .nav li:last-child a {
+  background-color: #EF672A;
+}
+aside .nav li:last-child a:hover {
   background-color: #d64d10;
 }
