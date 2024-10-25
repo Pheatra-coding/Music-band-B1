@@ -27,6 +27,9 @@ nav ul li a {
   color: #FFFFFF;
   text-decoration: none;
 }
+nav ul li a:hover {
+  text-shadow: rgba(255, 145, 0, 0.824) 18px 14px 25px, rgba(255, 132, 0, 0.12) 0px -12px 30px, rgba(255, 111, 0, 0.578) 0px 8px 16px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -8px 12px;
+}
 nav ul li a.pages {
   color: #EF672A;
 }
@@ -39,6 +42,13 @@ nav ul button {
   padding: 10px 32px;
   border: none;
   cursor: pointer;
+}
+nav ul button:hover {
+  background: #EF672A;
+  color: #FFFFFF;
+  padding: 10px 32px;
+  border: none;
+  box-shadow: rgba(255, 145, 0, 0.596) 0px 14px 25px, rgba(255, 132, 0, 0.12) 0px -12px 30px, rgba(255, 111, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
 nav ul button.btn-white {
   background: none;
@@ -156,7 +166,7 @@ aside {
   background-color: #141B29;
   padding: 20px;
 }
-aside .nav {
+aside .nav_library {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -166,12 +176,12 @@ aside .nav {
   width: 80%;
   margin: auto;
 }
-aside .nav li {
+aside .nav_library li {
   margin-bottom: 10px;
   background: #1F2839;
   border-radius: 6px;
 }
-aside .nav li a {
+aside .nav_library li a {
   color: #FFFFFF;
   font-size: 16px;
   text-decoration: none;
@@ -180,11 +190,44 @@ aside .nav li a {
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
-aside .nav li a:hover {
+aside .nav_library li a:hover {
   background-color: #3D7F9F;
 }
-aside .nav li .white {
+aside .nav_library li .white {
   background: #FFFFFF;
   color: #1F2839;
+  font-weight: 400;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 30px;
+}
+.video-container .video {
+  width: 346px;
+}
+.video-container .video iframe {
+  width: 346px;
+  height: 180px;
+}
+.video-container .video .pf {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.video-container .video .pf img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.video-container .video .pf h3 {
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-bottom: 10px;
   font-weight: 400;
 }

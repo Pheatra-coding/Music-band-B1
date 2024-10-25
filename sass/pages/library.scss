@@ -83,7 +83,7 @@ aside {
     background-color: $main-color;
     padding: 20px;
 
-    .nav {
+    .nav_library {
         list-style: none;
         padding: 0;
         margin: 0;
@@ -117,5 +117,36 @@ aside {
                 font-weight: 400;
             }
         }
+        }
+    }
+
+    .video-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+        column-gap: 20px;
+        row-gap: 30px;
+        .video {
+            width: 346px;
+            iframe {
+                width: 346px;
+                height: 180px;
+            }
+            .pf {
+                display: flex;
+                column-gap: 20px;
+                img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 20px;
+                }
+                h3 {
+                    color: $white-color;
+                    font-size: $font-size-h5;
+                    margin-bottom: 10px;
+                    font-weight: 400;
+                }
+            }
         }
     }
