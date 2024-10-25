@@ -109,7 +109,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000000;
+  background-color: #141B29;
 }
 main .sign_in_page {
   border-radius: 32px;
@@ -122,11 +122,11 @@ main .sign_in_page {
 main .sign_in_page .bullet {
   height: 80%;
   width: 1px;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 main .sign_in_page .group_continu {
   width: 42%;
-  height: 80%;
+  height: 90%;
   border-radius: 32px 0px 0px 32px;
   display: flex;
   justify-content: space-evenly;
@@ -135,7 +135,7 @@ main .sign_in_page .group_continu {
 }
 main .sign_in_page .group_continu .logo {
   width: 52%;
-  height: 56%;
+  height: 40%;
 }
 main .sign_in_page .group_continu .group_continu_app {
   width: 80%;
@@ -151,7 +151,7 @@ main .sign_in_page .group_continu .group_continu_app a {
 }
 main .sign_in_page .group_continu .group_continu_app a .continu {
   width: 90%;
-  color: white;
+  color: #FFFFFF;
   height: 90%;
   box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
   display: flex;
@@ -177,7 +177,7 @@ main .sign_in_page .group_form_sign {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
+  color: #FFFFFF;
   flex-direction: column;
   border-radius: 20px;
   box-shadow: rgba(250, 117, 0, 0.256) 0px 14px 28px, rgba(250, 117, 0, 0.256) 0px 10px 10px;
@@ -216,7 +216,7 @@ main .sign_in_page .group_form_sign form .footer_form .group_forgot li {
 }
 main .sign_in_page .group_form_sign form .footer_form .group_forgot li a {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
   font-size: 14px;
 }
 main .sign_in_page .group_form_sign form .footer_form button {
@@ -224,7 +224,7 @@ main .sign_in_page .group_form_sign form .footer_form button {
   height: 48px;
   border: solid 2px rgba(255, 136, 0, 0.324);
   transition: 1s;
-  color: white;
+  color: #FFFFFF;
   border-radius: 8px;
   margin-top: 20px;
   background: none;
@@ -258,7 +258,7 @@ main .sign_in_page .group_form_sign form .group_input .enter .input input {
   width: 88%;
   outline: none;
   border: none;
-  color: white;
+  color: #FFFFFF;
 }
 main .sign_in_page .group_form_sign:hover {
   box-shadow: rgba(250, 117, 0, 0.256) 0px 14px 28px, rgba(250, 117, 0, 0.256) 0px 10px 10px;

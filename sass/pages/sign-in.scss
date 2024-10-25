@@ -24,7 +24,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: $main-color;
     .sign_in_page {
         border-radius: 32px;
         width: 82%;
@@ -35,12 +35,12 @@ main {
         .bullet {
             height: 80%;
             width: 1px;
-            background-color: white;
+            background-color: $white-color;
         }
 
         .group_continu {
             width: 42%;
-            height: 80%;
+            height: 90%;
             border-radius: 32px 0px 0px 32px;
             display: flex;
             justify-content: space-evenly;
@@ -48,7 +48,7 @@ main {
             align-items: center;
             .logo {
                 width: 52%;
-                height: 56%;
+                height: 40%;
             }
              
             .group_continu_app {
@@ -57,7 +57,7 @@ main {
                     height: 34%;
                     .continu {
                         width: 90%;
-                        color: white;
+                        color: $white-color;
                         height: 90%;
                         box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
                         display: flex;
@@ -93,7 +93,7 @@ main {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            color: white;
+            color: $white-color;
             flex-direction: column;
             border-radius:20px;
             box-shadow:rgba(250, 117, 0, 0.256) 0px 14px 28px,rgba(250, 117, 0, 0.256) 0px 10px 10px;
@@ -128,7 +128,7 @@ main {
                     list-style: none;
                     a{
                       text-decoration: none;
-                      color: white;
+                      color: $white-color;
                       font-size: 14px;
                     }
                   }
@@ -138,7 +138,7 @@ main {
                   height: 48px;
                   border: solid 2px rgba(255, 136, 0, 0.324);
                   transition: 1s;
-                  color: white;
+                  color: $white-color;
                   border-radius: 8px;
                   margin-top: 20px;
                   background: none;
@@ -172,7 +172,7 @@ main {
                       width: 88%;
                       outline: none;
                       border: none;
-                      color: white;
+                      color: $white-color;
                     }
                   }
                 }
