@@ -117,14 +117,5 @@ aside {
                 font-weight: 400;
             }
         }
-
-        // Special styling for "Watch" button (last item)
-        li:last-child a {
-            background-color: $button-color;
-
-            &:hover {
-                background-color: darken($button-color, 10%);
-            }
         }
     }
-}
