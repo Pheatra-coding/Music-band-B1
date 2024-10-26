@@ -88,9 +88,10 @@ img {
     margin-top: 50px;
 
     h2 {
-        font-size: 30px;
+        font-size: $font-size-h3;
         color: $white-color;
         margin-bottom: 30px;
+        font-weight: 400;
     }
 
     .team-cards {
@@ -102,24 +103,97 @@ img {
             padding: 20px;
             margin: 0 20px;
             border-radius: 10px;
-            width: 200px;
+            width: 220px;
+            height: 50vh;
             text-align: center;
 
+            .group-icon {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+                
+                ul {
+                    .fa-heart {
+                        margin-left: -10px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+
             img {
-                width: 100%;
-                height: auto;
-                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                border-radius: 50px;
+                object-fit: cover;
                 margin-bottom: 10px;
             }
 
             h4 {
-                margin-bottom: 5px;
+                margin-bottom: 4px;
+                color: $white-color;
+                font-weight: 600;
             }
 
             p {
-                font-size: 14px;
-                color: lighten($white-color, 20%);
+                color: $secondary-color;
+            }
+
+            .btn {
+                button {
+                    background: $button-color;
+                    padding: 6px;
+                    width: 80px;
+                    margin-top: 12px;
+                    color: $white-color;
+                    font-weight: 300;
+                    border: none;
+                    border-radius: 20px;
+                }
+
+                .second {
+                    background: none;
+                    border: 1px solid $white-color;
+                    margin-left: 12px;
+                    padding: 5px;
+                }
+            }
+            .socail-logo {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 12px;
+                padding: 20px;
+                .logo {
+                    img {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 15px;
+                    }
+                }
             }
         }
+    }
+}
+
+.line { 
+    border: 1px solid $footer-color;
+    margin-left: 10%;
+    margin-top: 70px;
+    width: 80%;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.partner-group {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
     }
 }

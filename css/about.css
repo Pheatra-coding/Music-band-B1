@@ -163,9 +163,10 @@ img {
   margin-top: 50px;
 }
 .team-section h2 {
-  font-size: 30px;
+  font-size: 24px;
   color: #FFFFFF;
   margin-bottom: 30px;
+  font-weight: 400;
 }
 .team-section .team-cards {
   display: flex;
@@ -176,19 +177,83 @@ img {
   padding: 20px;
   margin: 0 20px;
   border-radius: 10px;
-  width: 200px;
+  width: 220px;
+  height: 50vh;
   text-align: center;
 }
+.team-section .team-cards .team-card .group-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.team-section .team-cards .team-card .group-icon ul .fa-heart {
+  margin-left: -10px;
+  margin-right: 10px;
+}
 .team-section .team-cards .team-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin-bottom: 10px;
 }
 .team-section .team-cards .team-card h4 {
-  margin-bottom: 5px;
+  margin-bottom: 4px;
+  color: #FFFFFF;
+  font-weight: 600;
 }
 .team-section .team-cards .team-card p {
-  font-size: 14px;
-  color: white;
+  color: #3D7F9F;
+}
+.team-section .team-cards .team-card .btn button {
+  background: #EF672A;
+  padding: 6px;
+  width: 80px;
+  margin-top: 12px;
+  color: #FFFFFF;
+  font-weight: 300;
+  border: none;
+  border-radius: 20px;
+}
+.team-section .team-cards .team-card .btn .second {
+  background: none;
+  border: 1px solid #FFFFFF;
+  margin-left: 12px;
+  padding: 5px;
+}
+.team-section .team-cards .team-card .socail-logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding: 20px;
+}
+.team-section .team-cards .team-card .socail-logo .logo img {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.line {
+  border: 1px solid #1F2839;
+  margin-left: 10%;
+  margin-top: 70px;
+  width: 80%;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+.partner-group {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.partner-group img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
 }
