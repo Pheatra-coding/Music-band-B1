@@ -127,11 +127,16 @@ aside {
         margin: auto;
         column-gap: 20px;
         row-gap: 30px;
+        margin-bottom: 40px;
         .video {
-            width: 346px;
+            background: $footer-color;
+            padding: 8px;
+            border-radius: 8px;
+            width: 330px;
             iframe {
-                width: 346px;
+                width: 330px;
                 height: 180px;
+                border-radius: 8px;
             }
             .pf {
                 display: flex;

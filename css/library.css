@@ -207,13 +207,18 @@ aside .nav_library li .white {
   -moz-column-gap: 20px;
        column-gap: 20px;
   row-gap: 30px;
+  margin-bottom: 40px;
 }
 .video-container .video {
-  width: 346px;
+  background: #1F2839;
+  padding: 8px;
+  border-radius: 8px;
+  width: 330px;
 }
 .video-container .video iframe {
-  width: 346px;
+  width: 330px;
   height: 180px;
+  border-radius: 8px;
 }
 .video-container .video .pf {
   display: flex;

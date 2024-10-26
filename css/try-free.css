@@ -104,12 +104,13 @@ body {
 }
 
 main {
-  width: 100%;
-  height: 120vh;
+  width: 80%;
+  margin: auto;
+  height: 110vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000000;
+  background-color: #141B29;
 }
 main .sign {
   border-radius: 32px;
@@ -129,6 +130,11 @@ main .sign .group_form_sign {
   flex-direction: column;
   border-radius: 20px;
   box-shadow: rgba(250, 117, 0, 0.256) 0px 14px 28px, rgba(250, 117, 0, 0.256) 0px 10px 10px;
+}
+main .sign .group_form_sign h1 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 20px;
 }
 main .sign .group_form_sign .h_sign {
   width: 100%;
@@ -201,6 +207,9 @@ main .sign .group_form_sign form .group_input .enter .input {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+main .sign .group_form_sign form .group_input .enter .input span {
+  color: gray;
 }
 main .sign .group_form_sign form .group_input .enter .input input {
   background: transparent;
