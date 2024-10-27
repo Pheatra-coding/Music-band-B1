@@ -64,3 +64,15 @@ h1 {
     background-color: $button-color;
     color: $white-color;
 }
+
+@media only screen and (min-width: 426px) and (max-width: 834px){ 
+    .container {
+        margin-left: 5%;
+    }
+
+    .track-info audio {
+        height: 20px;
+        width: 80%;
+    }
+    
+}

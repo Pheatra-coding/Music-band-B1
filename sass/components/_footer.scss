@@ -43,3 +43,33 @@ footer {
         }
     }
 }
+
+
+@media only screen and (min-width: 426px) and (max-width: 834px){ 
+    footer {
+        img {
+            width: 100px;
+            height: 80px;
+        }
+        .contact-group {
+            h2 {
+                font-size: $font-size-h4;
+            }
+            p {
+                margin-top: 8px;
+            }
+        }
+        .follow-us {
+            h2 {
+                font-size: $font-size-h4;
+            }
+            div.social-media {
+                img {
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}

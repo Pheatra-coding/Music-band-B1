@@ -55,3 +55,21 @@ nav {
         }
     }
 }
+
+
+@media only screen and (min-width: 426px) and (max-width: 834px){ 
+    nav {
+        ul {
+            column-gap: 20px;
+            li {
+                a {
+                    font-size: 14px;
+                }
+            }
+
+            button {
+                padding: 8px 28px;
+            }
+        }
+    }
+}

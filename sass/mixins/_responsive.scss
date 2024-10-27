@@ -1,0 +1,38 @@
+@mixin responsive {
+    @media only screen and (min-width: 426px) and (max-width: 834px){ 
+        main {
+            section {
+                img {
+                    height: 50vh;
+                }
+
+                .text {
+                    margin-top: -40vh;
+                }
+            }
+
+            aside { 
+                width: 95%;
+                margin: auto;
+                .card-container {
+                    margin-top: -80px;
+                    column-gap: 50px;
+                    .cards {
+                        width: 45%;
+                        img {
+                            height: 240px;
+                        }
+
+                        .group-pf {
+                            img {
+                                width: 80px;
+                                height: 80px;
+                                border-radius: 50px;
+                            }
+                        }
+                    }
+                }
+        }
+        }
+    }
+}
