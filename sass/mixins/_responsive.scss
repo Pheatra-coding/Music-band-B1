@@ -1,3 +1,6 @@
+// responsive on template devices 
+
+// home page
 @mixin responsive {
     @media only screen and (min-width: 426px) and (max-width: 834px){ 
         main {
@@ -32,11 +35,12 @@
                         }
                     }
                 }
-        }
+            }
         }
     }
 }
 
+// about pages
 
 @mixin responsive-about {
     @media only screen and (min-width: 426px) and (max-width: 834px){ 
@@ -64,6 +68,7 @@
         .team-section {
             .team-cards {
                 .team-card {
+                    height: 32vh;
                     img {
                         width: 80px;
                         height: 80px;
@@ -92,6 +97,8 @@
 }
 
 
+// contact pages
+
 @mixin responsive-library { 
     @media only screen and (min-width: 426px) and (max-width: 834px){ 
         .search-button {
@@ -103,7 +110,7 @@
             padding: 10px;
             .nav_library {
                 width: 90%;
-                margin-left: 55px;
+                margin-left: 75px;
                 li {
                     a {
                         font-size: $font-size-p;
@@ -121,7 +128,6 @@
             column-gap: 25px;
             .video {
                 width: 320px;
-
                 iframe {
                     width: 320px;
                 }
@@ -139,5 +145,83 @@
                 }
             }
         }
+    }
+}
+
+@mixin responsive-contact { 
+    @media only screen and (min-width: 426px) and (max-width: 834px){ 
+        main {
+            section {
+                img {
+                    height: 50vh;
+                }
+            }
+
+            aside {
+                .contact {
+                    .line-contact {
+                        margin-left: 22%;
+                    }
+                }
+                .form {
+                    .form_left {
+                        button {
+                            width: 97%;
+                        }
+                    }
+                }
+            }
+
+            .map-container {
+                margin-left: 5%;
+                iframe {
+                    width: 700px;
+                    height: 400px;
+                }
+            }
+        }
+    }
+}
+
+
+// responsive on phone devices
+
+@mixin responsive-homepage-smartphone { 
+    @media only screen and (max-width: 425px) {
+        main {
+            margin-top: 37%;
+            section {
+                display: none;
+            }
+
+            aside { 
+                width: 100%;
+                .card-container {
+                    margin-top: -80px;
+                    margin-left: -20%;
+                    .cards {
+                        width: 75%;
+                        img {
+                            height: 210px;
+                        }
+
+                        .group-pf {
+                            img {
+                                width: 60px;
+                                height: 60px;
+                                border-radius: 50px;
+                            }
+
+                            .group-p {
+                                p {
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
     }
 }

@@ -66,6 +66,21 @@ nav ul button.btn-white {
     padding: 8px 28px;
   }
 }
+@media only screen and (max-width: 425px) {
+  nav .logo img {
+    width: 50px;
+  }
+  nav ul {
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  nav ul li a {
+    font-size: 12px;
+  }
+  nav ul button {
+    display: none;
+  }
+}
 .cards {
   width: 40%;
   margin-bottom: 30px;
@@ -177,6 +192,31 @@ h1 {
     width: 80%;
   }
 }
+@media only screen and (max-width: 425px) {
+  .container {
+    margin-left: -20%;
+    width: 96%;
+  }
+  .track img {
+    width: 80px;
+    height: 80px;
+  }
+  .track-info h2 {
+    font-weight: 300;
+    font-size: 10px;
+  }
+  .track-info p {
+    font-size: 8px;
+  }
+  .buy-button {
+    padding: 3px 10px;
+    font-size: 8px;
+  }
+  .track-info audio {
+    width: 85%;
+    height: 10px;
+  }
+}
 footer {
   background: #1F2839;
   color: #FFFFFF;
@@ -232,6 +272,28 @@ footer .follow-us div.social-media img {
     width: 20px;
     height: 20px;
     border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  footer img {
+    width: 60px;
+    height: 50px;
+  }
+  footer .contact-group h2 {
+    font-size: 10px;
+  }
+  footer .contact-group p {
+    margin-top: 0px;
+    font-size: 6px;
+  }
+  footer .follow-us h2 {
+    font-size: 10px;
+  }
+  footer .follow-us div.social-media img {
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    margin-right: 0px;
   }
 }
 * {
@@ -311,5 +373,34 @@ aside .card-container {
     width: 80px;
     height: 80px;
     border-radius: 50px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  main {
+    margin-top: 37%;
+  }
+  main section {
+    display: none;
+  }
+  main aside {
+    width: 100%;
+  }
+  main aside .card-container {
+    margin-top: -80px;
+    margin-left: -20%;
+  }
+  main aside .card-container .cards {
+    width: 75%;
+  }
+  main aside .card-container .cards img {
+    height: 210px;
+  }
+  main aside .card-container .cards .group-pf img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+  }
+  main aside .card-container .cards .group-pf .group-p p {
+    font-size: 10px;
   }
 }
