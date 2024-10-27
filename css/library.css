@@ -241,7 +241,6 @@ aside .nav_library li .white {
   margin-bottom: 20px;
 }
 .video-container .video {
-  padding: 8px;
   border-radius: 8px;
   width: 330px;
 }
@@ -288,4 +287,47 @@ aside .nav_library li .white {
   margin-top: 12px;
   margin-bottom: 40px;
   color: #FFFFFF;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 834px) {
+  .search-button {
+    margin-top: 15%;
+    margin-left: 14%;
+  }
+  aside {
+    padding: 10px;
+  }
+  aside .nav_library {
+    width: 90%;
+    margin-left: 55px;
+  }
+  aside .nav_library li a {
+    font-size: 12px;
+  }
+  aside .nav_library li .none {
+    display: none;
+  }
+  .video-container {
+    width: 90%;
+    margin-left: 60px;
+    -moz-column-gap: 25px;
+         column-gap: 25px;
+  }
+  .video-container .video {
+    width: 320px;
+  }
+  .video-container .video iframe {
+    width: 320px;
+  }
+  .video-container .video .pf {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+  .video-container .video .pf img {
+    width: 30px;
+    height: 30px;
+  }
+  .video-container .video .pf h3 {
+    font-size: 14px;
+  }
 }

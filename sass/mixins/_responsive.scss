@@ -36,3 +36,108 @@
         }
     }
 }
+
+
+@mixin responsive-about {
+    @media only screen and (min-width: 426px) and (max-width: 834px){ 
+        .about-us {
+            padding: 30px 0;
+    
+            .about-heading {
+                h1 {
+                    font-size: $font-size-h2;
+                }
+    
+                h2 {
+                    margin-top: -10px;
+                    font-size: 18px;
+                }
+            }
+    
+            .about-content {
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    
+        .team-section {
+            .team-cards {
+                .team-card {
+                    img {
+                        width: 80px;
+                        height: 80px;
+                    }
+                    p {
+                        font-size: 14px;
+                    }
+    
+                    .btn {
+                        button {
+                            padding: 5px;
+                            width: 70px;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .partner-group {
+            img {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+}
+
+
+@mixin responsive-library { 
+    @media only screen and (min-width: 426px) and (max-width: 834px){ 
+        .search-button {
+            margin-top: 15%;
+            margin-left: 14%;
+        }
+
+        aside {
+            padding: 10px;
+            .nav_library {
+                width: 90%;
+                margin-left: 55px;
+                li {
+                    a {
+                        font-size: $font-size-p;
+                    }
+
+                    .none {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .video-container {
+            width: 90%;
+            margin-left: 60px;
+            column-gap: 25px;
+            .video {
+                width: 320px;
+
+                iframe {
+                    width: 320px;
+                }
+
+                .pf {
+                    column-gap: 10px;
+                    img {
+                        width: 30px;
+                        height: 30px;
+                    }
+
+                    h3 {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

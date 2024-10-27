@@ -288,3 +288,34 @@ h2 {
   height: 100px;
   border-radius: 50px;
 }
+
+@media only screen and (min-width: 426px) and (max-width: 834px) {
+  .about-us {
+    padding: 30px 0;
+  }
+  .about-us .about-heading h1 {
+    font-size: 28px;
+  }
+  .about-us .about-heading h2 {
+    margin-top: -10px;
+    font-size: 18px;
+  }
+  .about-us .about-content p {
+    font-size: 14px;
+  }
+  .team-section .team-cards .team-card img {
+    width: 80px;
+    height: 80px;
+  }
+  .team-section .team-cards .team-card p {
+    font-size: 14px;
+  }
+  .team-section .team-cards .team-card .btn button {
+    padding: 5px;
+    width: 70px;
+  }
+  .partner-group img {
+    width: 80px;
+    height: 80px;
+  }
+}
