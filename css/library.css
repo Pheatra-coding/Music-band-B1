@@ -19,8 +19,8 @@ nav .logo img {
 }
 nav ul {
   display: flex;
-  -moz-column-gap: 70px;
-       column-gap: 70px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
   list-style-type: none;
 }
 nav ul li a {
@@ -206,11 +206,10 @@ aside .nav_library li .white {
   margin: auto;
   -moz-column-gap: 20px;
        column-gap: 20px;
-  row-gap: 30px;
-  margin-bottom: 40px;
+  row-gap: 10px;
+  margin-bottom: 20px;
 }
 .video-container .video {
-  background: #1F2839;
   padding: 8px;
   border-radius: 8px;
   width: 330px;
@@ -235,4 +234,27 @@ aside .nav_library li .white {
   font-size: 16px;
   margin-bottom: 10px;
   font-weight: 400;
+}
+
+.group-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+.group-text h2 {
+  font-weight: 500;
+}
+.group-text h3 {
+  font-weight: 400;
+  font-size: 16px;
+}
+.group-text button {
+  padding: 12px;
+  background: #EF672A;
+  border: none;
+  margin-top: 12px;
+  margin-bottom: 40px;
+  color: #FFFFFF;
 }

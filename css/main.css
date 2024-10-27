@@ -19,8 +19,8 @@ nav .logo img {
 }
 nav ul {
   display: flex;
-  -moz-column-gap: 70px;
-       column-gap: 70px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
   list-style-type: none;
 }
 nav ul li a {
