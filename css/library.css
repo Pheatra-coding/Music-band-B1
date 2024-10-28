@@ -182,6 +182,9 @@ main {
   align-items: center;
   gap: 10px;
 }
+.search-button button a {
+  color: white;
+}
 .search-button .group-search {
   display: flex;
   align-items: center;
@@ -367,4 +370,4 @@ aside .nav_library li .white {
   .video-container .video .pf h3 {
     font-size: 14px;
   }
-}
+}/*# sourceMappingURL=library.css.map */

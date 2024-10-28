@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/submit_own.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="../images/logo1.png" alt="">
+        </div>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="underline-pages"><a href="library.html" class="pages">Library</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+            <a href="try-free.html"><button>TRY IT FREE</button></a>
+            <a href="sign-in.html"><button class="btn-white">SIGN IN</button></a>
+        </ul>
+    </nav>
+    
+    <div class="upload-container">
+        <h2>Video Upload</h2>
+        <hr>
+        <form action="/submit-video" method="POST" enctype="multipart/form-data">
+            <div class="btn">
+                <div class="first">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first_name" >
+                </div>
+                <div class="last">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last_name">
+                </div>
+            </div>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" >
+
+            <label for="file-upload" class="file-upload">
+                <img src="" alt="">
+                <span>Browse Files</span>
+                <input type="file" id="file-upload" name="video_file" accept="video/*" >
+            </label>
+
+            <label for="notes">Additional Notes</label>
+            <textarea id="notes" name="notes" rows="3"></textarea>
+            <div class="button_submit">
+                <button >Submit</button>
+            </div>
+        </form>
+    </div>  
+    <footer>
+        <img src="../images/logo2.png" alt="">
+        <div class="contact-group">
+            <h2>Contact</h2>
+            <p>Tel: <strong>str (+855) 10 200 888 or 1204</strong></p>
+            <p>Email: <strong>customercare@gmail.com</strong> </p>
+            <p>Address: <strong>371, Borey sola, Phnom Penh</strong></p>
+        </div>
+        <div class="follow-us">
+            <h2>Follow Us</h2>
+            <div class="social-media">
+                <img src="https://www.iconpacks.net/icons/2/free-icon-facebook-5221.png" alt="">
+                <img src="https://www.iconpacks.net/icons/free-icons-6/free-instagram-circle-round-red-icon-22716.png" alt="">
+                <img src="https://www.iconpacks.net/icons/5/free-telegram-circle-blue-logo-icon-16635.png" alt="">
+                <img src="https://www.iconpacks.net/icons/1/free-icon-youtuber-839.png" alt="">
+                <img src="https://www.iconpacks.net/icons/3/free-icon-tiktok-logo-10296.png" alt="">
+            </div>    
+        </div>
+    </footer>
+</body>
+</html>

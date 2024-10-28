@@ -25,7 +25,9 @@ main {
     display: flex;
     align-items: center;
     gap: 10px;
-
+    button a{
+        color: white;
+    }
     .group-search {
         display: flex;
         align-items: center;
@@ -34,6 +36,7 @@ main {
         width: 400px;
 
         input[type="text"] {
+    
             background-color: transparent;
             border: none;
             color: $secondary-color;
