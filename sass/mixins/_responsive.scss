@@ -226,3 +226,213 @@
 
     }
 }
+
+// responsive on smartphone devices __about page
+
+
+@mixin responsive-about-page-smartphone {
+    @media only screen and (max-width: 425px) {
+        .about-cover {
+            display: none;
+        }
+
+        .about-us {
+            margin-top: -30px;
+            .about-heading {
+                h1 {
+                    display: none;
+                }
+                h2 {
+                    font-size: 14px;
+                }
+            }
+            .about-content {
+                margin-top: -10px;
+                p {
+                    font-size: 8px;
+                }
+            }
+        }
+        .mission-vision {
+            margin-bottom: -10px;
+            .card {
+                h3 {
+                    font-size: 14px;
+                }
+
+                p {
+                    font-size: 8px;
+                }
+            }
+        }
+        .team-section {
+            h2 {
+                font-size: 16px;
+            }
+            .team-cards {
+                margin-left: 36px;
+                flex-direction: column;
+                row-gap: 20px;
+                .team-card {
+                    width: 200px;
+                    height: 36vh;
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        h2 {
+            font-size: 16px;
+        }
+
+        .partner-group {
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+
+// responsive on smartphone devices __library page
+
+@mixin responsive-library-page-smartphone {
+    @media only screen and (max-width: 425px) {
+        .search-button {
+            margin-top: 20%;
+            margin-left: 28px;
+            .group-search {
+                width: 200px;
+                padding: 8px;
+                input[type="text"] {
+                    font-size: 8px;
+                    width: 100%;
+                }
+
+                .icon {
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+            h3 {
+                font-size: 10px;
+            }
+
+            button {
+                font-size: 8px;
+                padding: 8px 14px;
+            }
+        }
+        aside {
+            .nav_library {
+                display: none;
+            }
+        }
+
+        .video-container {
+            margin-top: -20px;
+            row-gap: 20px;
+            .video {
+                margin-left: -10px;
+                .pf {
+                    img {
+                        width: 30px;
+                        height: 30px;
+                    }
+                    h3 {
+                        font-size: $font-size-p;
+                    }
+                }
+            }
+        }
+
+        .group-text {
+            h2 {
+                font-size: 16px;
+                font-weight: 300;
+            }
+            h3 {
+                font-size: 12px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+
+// responsive on smartphone devices __contact page
+
+@mixin responsive-contact-page-smartphone {
+    @media only screen and (max-width: 425px) {
+        main {
+            section {
+                display: none;
+            }
+
+            aside {
+                margin-top: 80px;
+                .logo_form {
+                    display: none;
+                }
+
+                .contact {
+                    .line-contact {
+                        margin-left: 4px;
+                        width: 300px;
+                        border: 1px solid rgba(128, 128, 128, 0.411);
+                    }
+
+                    .group-contact {
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        row-gap: 20px;
+                    }
+                }
+
+                .form {
+                    margin-top: 16%;
+                    margin-bottom: 30px;
+                    row-gap: 20px;
+                    flex-direction: column;
+                    .form_left {
+                        width: 100%;
+                    }
+                    .form_middle {
+                        column-gap: 10px;
+                        flex-direction: row;
+                        .line {
+                            height: 0px;
+                            width:150px;
+                        }
+                    }
+
+                    .form_right {
+                        width: 100%;
+                        margin-left: -34px;
+                    }
+                }
+            }
+
+            .map-container {
+                margin-left: 8%;
+                h2 {
+                    font-size: 16px;
+                }
+                h3 {
+                    font-size: 12px;
+                }
+                iframe {
+                    width: 320px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}

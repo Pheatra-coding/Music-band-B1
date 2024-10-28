@@ -359,3 +359,58 @@ h2 {
     height: 80px;
   }
 }
+@media only screen and (max-width: 425px) {
+  .about-cover {
+    display: none;
+  }
+  .about-us {
+    margin-top: -30px;
+  }
+  .about-us .about-heading h1 {
+    display: none;
+  }
+  .about-us .about-heading h2 {
+    font-size: 14px;
+  }
+  .about-us .about-content {
+    margin-top: -10px;
+  }
+  .about-us .about-content p {
+    font-size: 8px;
+  }
+  .mission-vision {
+    margin-bottom: -10px;
+  }
+  .mission-vision .card h3 {
+    font-size: 14px;
+  }
+  .mission-vision .card p {
+    font-size: 8px;
+  }
+  .team-section h2 {
+    font-size: 16px;
+  }
+  .team-section .team-cards {
+    margin-left: 36px;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .team-section .team-cards .team-card {
+    width: 200px;
+    height: 36vh;
+  }
+  .team-section .team-cards .team-card img {
+    width: 50px;
+    height: 50px;
+  }
+  .team-section .team-cards .team-card p {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .partner-group img {
+    width: 50px;
+    height: 50px;
+  }
+}
