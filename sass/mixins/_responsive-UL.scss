@@ -1,0 +1,59 @@
+// tablet
+@mixin Responsive_submitOwn_library{
+    @media only screen and (min-width: 426px) and (max-width: 834px){
+        body{
+            height: 90vh;
+        }
+        .upload-container {
+            width: 70%;
+            height: 50vh; 
+           
+        }
+    
+        .btn .first, .btn .last {
+            width: 90%; 
+            margin-bottom: 10px;
+        }
+}
+}
+
+// phone
+@mixin Responsive_phone_submitOwn_library{
+    @media only screen and (max-width: 425px) {
+        body{
+            margin-top: 80px;
+            height: 100vh;
+        }
+        .upload-container {
+            width: 80%;
+            height: 89vh; 
+        }
+        h2{
+            font-size: $font-size-h5;
+        }
+        .btn{
+            display: flex;
+            flex-direction: column;
+            .first{
+                width: 100%;
+            }
+            .last{
+                width: 100%;
+            }
+            input[type="text"],
+            textarea {
+                width: 193%;
+                
+            }
+            label {
+                margin-top: 5px;
+               
+            }
+            .button_submit{
+                margin-top: 1px;
+            }
+            
+        }
+
+}
+}

@@ -2,6 +2,8 @@
 @import '../components/nav';
 @import '../mixins/group-mixins';
 @import '../components/footer';
+@import '../mixins/responsive';
+@import '../mixins/responsive-UL';
 
 * {
     padding: 0;
@@ -13,21 +15,21 @@ body {
     font-family: 'Poppins', sans-serif;
     background: $main-color;
     margin-top: 100px;
-    height: 90vh;
+    height: 110vh;
 }
 .upload-container{
-
+    
     background-color:#212b3f;
     border-radius: 10px;
-    width: 55%;
+    width: 60%;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     margin: auto;
     color: white;
     padding: 20px;
-    height: 75vh;
+    height: 110vh;
   
     .btn{
-        
+        margin-top: 30px;
         display: flex;
         flex-wrap: wrap;
         .first{
@@ -45,6 +47,7 @@ body {
     }
 
     label {
+        margin-top: 10px;
         display: block;
         margin-bottom: 5px;
         font-weight: bold;
@@ -89,6 +92,7 @@ body {
         }
     }
     .button_submit{
+        margin-top: 20px;
         display: flex;
         justify-content: center;
         a{
@@ -108,3 +112,7 @@ body {
 footer{
     margin-top: 20px;
 }
+
+
+@include  Responsive_submitOwn_library;
+@include Responsive_phone_submitOwn_library;
