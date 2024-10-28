@@ -104,6 +104,9 @@ main {
   align-items: center;
   gap: 10px;
 }
+.search-button button a {
+  color: white;
+}
 .search-button .group-search {
   display: flex;
   align-items: center;

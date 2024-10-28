@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PPC BAND</title>
-    <link rel="stylesheet" href="../css/library.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/submit_own.min.css">
 </head>
 <body>
     <nav>
@@ -22,53 +22,38 @@
             <a href="sign-in.html"><button class="btn-white">SIGN IN</button></a>
         </ul>
     </nav>
-    <main>
-        <main>
-            <section>
-                <div class="search-button">
-                    <div class="group-search">
-                        <label for="search"></label>
-                        <input type="text" id="search" placeholder="search for artists, bands, tracks, podcasts">
-                        <div class="icon"></div>
-                    </div>
-                    <h3>or</h3>
-                    <button><a href="../pages/sumit_own_form.html">Upload your own</a></button>
+    
+    <div class="upload-container">
+        <h2>Video Upload</h2>
+        <hr>
+        <form action="/submit-video" method="POST" enctype="multipart/form-data">
+            <div class="btn">
+                <div class="first">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first_name" >
                 </div>
-            </section>
-            <aside>
-                <ul class="nav">
-                    <li><a href="#" class="white">All</a></li>
-                    <li><a href="#">Classic</a></li>
-                    <li><a href="#">Remix</a></li>
-                    <li><a href="#">Hip hop</a></li>
-                    <li><a href="#">Pop-Rap</a></li>
-                    <li><a href="#">Teen pop music</a></li>
-                    <li><a href="#">Alternative Hip hop</a></li>
-                    <li><a href="#">Lofi</a></li>
-                    <li><a href="#">J-pop</a></li>
-                    <li><a href="#">Watch</a></li>
-                </ul>
-            </aside>
-        </main>
-        <!-- video container -->
-        <div class="video-container">
-            <div class="video">
-                <!-- video here -->
-                <!-- singer name -->
+                <div class="last">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last_name">
+                </div>
             </div>
-            <div class="video">
-                <!-- video here -->
-                <!-- singer name -->
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" >
+
+            <label for="file-upload" class="file-upload">
+                <img src="" alt="">
+                <span>Browse Files</span>
+                <input type="file" id="file-upload" name="video_file" accept="video/*" >
+            </label>
+
+            <label for="notes">Additional Notes</label>
+            <textarea id="notes" name="notes" rows="3"></textarea>
+            <div class="button_submit">
+                <button >Submit</button>
             </div>
-            <div class="video">
-                <!-- video here -->
-                <!-- singer name -->
-            </div>
-            <div class="video">
-                <!-- video here -->
-                <!-- singer name -->
-            </div>
-    </main>
+        </form>
+    </div>  
     <footer>
         <img src="../images/logo2.png" alt="">
         <div class="contact-group">
