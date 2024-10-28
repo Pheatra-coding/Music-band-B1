@@ -189,7 +189,7 @@
 @mixin responsive-homepage-smartphone { 
     @media only screen and (max-width: 425px) {
         main {
-            margin-left: 50px;
+            margin-left: 40px;
             margin-top: 37%;
             section {
                 display: none;
@@ -199,7 +199,7 @@
                 width: 100%;
                 margin: auto;
                 .card-container {
-                    margin-top: -80px;
+                    margin-top: -60px;
                     .cards {
                         width: 85%;
                         img {
