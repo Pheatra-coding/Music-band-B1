@@ -239,6 +239,9 @@ body {
   display: flex;
   justify-content: center;
 }
+.upload-container .button_submit a {
+  color: white;
+}
 .upload-container .button_submit button {
   background-color: #d88110;
   color: white;

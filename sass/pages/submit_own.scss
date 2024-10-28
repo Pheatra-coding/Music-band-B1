@@ -91,6 +91,9 @@ body {
     .button_submit{
         display: flex;
         justify-content: center;
+        a{
+            color: white;
+        }
         button{
             background-color: #d88110;
             color: white;
