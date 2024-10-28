@@ -218,36 +218,36 @@ main .sign .group_form_sign form {
   flex-direction: column;
   align-items: center;
 }
-main .sign .group_form_sign form li {
+main .sign .group_form_sign form button:hover {
+  border: solid 2px rgba(255, 255, 255, 0.425);
+  box-shadow: rgba(255, 119, 0, 0.596) 0px 14px 25px, rgba(255, 136, 1, 0.12) 0px -12px 30px, rgba(255, 106, 0, 0.12) 0px 4px 6px, rgba(255, 136, 0, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+  transition: 1s;
+}
+main .sign .group_form_sign form button {
   width: 80%;
   height: 42px;
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: solid 2px rgba(253, 143, 0, 0.324);
+  transition: 1s;
+  border-radius: 8px;
+  background: none;
 }
-main .sign .group_form_sign form li a {
+main .sign .group_form_sign form button li {
   width: 100%;
   height: 100%;
   text-decoration: none;
   display: flex;
   justify-content: center;
+  list-style: none;
   align-items: center;
 }
-main .sign .group_form_sign form li a button {
-  width: 80%;
-  height: 42px;
-  border: solid 2px rgba(253, 143, 0, 0.324);
-  transition: 1s;
-  color: white;
-  border-radius: 8px;
-  margin-top: 20px;
-  background: none;
-}
-main .sign .group_form_sign form li a button:hover {
-  border: solid 2px rgba(255, 255, 255, 0.425);
-  box-shadow: rgba(255, 119, 0, 0.596) 0px 14px 25px, rgba(255, 136, 1, 0.12) 0px -12px 30px, rgba(255, 106, 0, 0.12) 0px 4px 6px, rgba(255, 136, 0, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
-  transition: 1s;
+main .sign .group_form_sign form button li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #FFFFFF;
 }
 main .sign .group_form_sign form .footer_form {
   height: 18%;
@@ -289,4 +289,28 @@ main .sign .group_form_sign form .group_input .enter .input input {
 }
 main .sign .group_form_sign:hover {
   box-shadow: rgba(250, 117, 0, 0.256) 0px 14px 28px, rgba(250, 117, 0, 0.256) 0px 10px 10px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    padding: 10px;
+    background: #141B29;
+    border: 1px solid #1F2839;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  nav .logo img {
+    width: 80px;
+    height: auto;
+  }
+  nav ul {
+    display: none;
+  }
 }

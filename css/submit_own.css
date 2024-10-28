@@ -169,20 +169,21 @@ body {
   font-family: "Poppins", sans-serif;
   background: #141B29;
   margin-top: 100px;
-  height: 90vh;
+  height: 110vh;
 }
 
 .upload-container {
   background-color: #212b3f;
   border-radius: 10px;
-  width: 55%;
+  width: 60%;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   margin: auto;
   color: white;
   padding: 20px;
-  height: 75vh;
+  height: 110vh;
 }
 .upload-container .btn {
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -198,6 +199,7 @@ body {
   color: white;
 }
 .upload-container label {
+  margin-top: 10px;
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
@@ -236,6 +238,7 @@ body {
   border-color: #999;
 }
 .upload-container .button_submit {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
 }
@@ -254,4 +257,51 @@ body {
 
 footer {
   margin-top: 20px;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 834px) {
+  body {
+    height: 90vh;
+  }
+  .upload-container {
+    width: 70%;
+    height: 50vh;
+  }
+  .btn .first, .btn .last {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  body {
+    margin-top: 80px;
+    height: 100vh;
+  }
+  .upload-container {
+    width: 80%;
+    height: 89vh;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn .first {
+    width: 100%;
+  }
+  .btn .last {
+    width: 100%;
+  }
+  .btn input[type=text],
+  .btn textarea {
+    width: 193%;
+  }
+  .btn label {
+    margin-top: 5px;
+  }
+  .btn .button_submit {
+    margin-top: 1px;
+  }
 }
