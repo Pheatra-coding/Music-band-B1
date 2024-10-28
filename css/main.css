@@ -194,7 +194,7 @@ h1 {
 }
 @media only screen and (max-width: 425px) {
   .container {
-    margin-left: -20%;
+    margin-left: -5%;
     width: 96%;
   }
   .track img {
@@ -377,6 +377,7 @@ aside .card-container {
 }
 @media only screen and (max-width: 425px) {
   main {
+    margin-left: 50px;
     margin-top: 37%;
   }
   main section {
@@ -384,16 +385,16 @@ aside .card-container {
   }
   main aside {
     width: 100%;
+    margin: auto;
   }
   main aside .card-container {
     margin-top: -80px;
-    margin-left: -20%;
   }
   main aside .card-container .cards {
-    width: 75%;
+    width: 85%;
   }
   main aside .card-container .cards img {
-    height: 210px;
+    height: 220px;
   }
   main aside .card-container .cards .group-pf img {
     width: 60px;
