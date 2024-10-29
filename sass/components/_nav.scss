@@ -1,5 +1,6 @@
 @import '_variable';
 @import '../mixins/group-mixins';
+@import "../mixins/nav-responsive";
 
 nav {
     display: flex;
@@ -19,6 +20,10 @@ nav {
             width: 80px;
             height: auto;
         }
+    }
+    .navbar .toggle {
+        display: none;
+        cursor: pointer;
     }
     ul {
         display: flex;
@@ -76,25 +81,4 @@ nav {
     }
 }
 
-// responsive on mobile phone
-
-@media only screen and (max-width: 425px) { 
-    nav {
-        .logo {
-            img {
-                width: 50px;
-            }
-        }
-        ul {
-            column-gap: 20px;
-            li {
-                a {
-                    font-size: 12px;
-                }
-            }
-            button {
-                display: none;
-            }
-        }
-    }
-}
+@include navResponsive;

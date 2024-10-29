@@ -17,6 +17,10 @@ nav .logo img {
   width: 80px;
   height: auto;
 }
+nav .navbar .toggle {
+  display: none;
+  cursor: pointer;
+}
 nav ul {
   display: flex;
   -moz-column-gap: 50px;
@@ -66,19 +70,50 @@ nav ul button.btn-white {
     padding: 8px 28px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 420px) {
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+  }
+  nav .toggle {
+    display: block;
+    margin-right: 30px;
+    color: white;
+    font-size: 24px;
+  }
+  nav .logo {
+    width: 20%;
+  }
   nav .logo img {
-    width: 50px;
+    width: 48px;
+    height: auto;
   }
-  nav ul {
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+  nav .navsign {
+    margin-right: 40px;
   }
-  nav ul li a {
-    font-size: 12px;
+  nav .navsign a button {
+    background: #EF672A;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    font-size: 8px;
+    border: none;
   }
-  nav ul button {
-    display: none;
+  nav .navsign a .btn-white {
+    background: none;
+    border: solid 1px #FFFFFF;
+  }
+  nav .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    left: 70%;
+    width: 26%;
+    height: 16vh;
   }
 }
 footer {
@@ -399,4 +434,4 @@ main .map-container strong {
     width: 330px;
     height: 200px;
   }
-}
+}/*# sourceMappingURL=contact.css.map */

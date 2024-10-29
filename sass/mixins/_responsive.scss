@@ -627,17 +627,6 @@
 
 @mixin free-sign-phone {
     @media (max-width: 480px) and (min-width:320px) {
-        nav {
-            .logo {
-                img {
-                    width: 46px;
-                    height: auto;
-                }
-            }
-            ul {
-                display:none;
-            }
-        }
         main {
             height: 768px;
             width: 100%;
@@ -661,16 +650,6 @@
 
 @mixin sign-phone-responsive {
     @media (max-width: 480px) and (min-width:320px){
-        nav {
-            .logo {
-                img {
-                    width: 46px;
-                    height: auto;
-                }
-            }
-            ul {
-                display:none;
-            }
         }
         main {
             flex-direction: column-reverse;
@@ -776,4 +755,3 @@
             }
         }
     }
-}

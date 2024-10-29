@@ -17,6 +17,10 @@ nav .logo img {
   width: 80px;
   height: auto;
 }
+nav .navbar .toggle {
+  display: none;
+  cursor: pointer;
+}
 nav ul {
   display: flex;
   -moz-column-gap: 50px;
@@ -66,19 +70,50 @@ nav ul button.btn-white {
     padding: 8px 28px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 420px) {
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+  }
+  nav .toggle {
+    display: block;
+    margin-right: 30px;
+    color: white;
+    font-size: 24px;
+  }
+  nav .logo {
+    width: 20%;
+  }
   nav .logo img {
-    width: 50px;
+    width: 48px;
+    height: auto;
   }
-  nav ul {
-    -moz-column-gap: 20px;
-         column-gap: 20px;
+  nav .navsign {
+    margin-right: 40px;
   }
-  nav ul li a {
-    font-size: 12px;
+  nav .navsign a button {
+    background: #EF672A;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    font-size: 8px;
+    border: none;
   }
-  nav ul button {
-    display: none;
+  nav .navsign a .btn-white {
+    background: none;
+    border: solid 1px #FFFFFF;
+  }
+  nav .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    left: 70%;
+    width: 26%;
+    height: 16vh;
   }
 }
 footer {
@@ -500,107 +535,98 @@ main .sign_in_page .group_form_sign:hover {
     width: 70%;
   }
 }
-@media (max-width: 480px) and (min-width: 320px) {
-  nav .logo img {
-    width: 46px;
-    height: auto;
-  }
-  nav ul {
-    display: none;
-  }
-  main {
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
-    height: 932px;
-    width: 100%;
-  }
-  main .sign_in_page {
-    width: 90%;
-    height: 68%;
-  }
-  main .sign_in_page .group_form_sign {
-    width: 100%;
-    height: 48%;
-  }
-  main .sign_in_page .group_form_sign h1 {
-    font-size: 14px;
-    font-weight: 300;
-    margin-top: 30px;
-  }
-  main .sign_in_page .group_form_sign .h_sign {
-    width: 100%;
-    height: 8%;
-  }
-  main .sign_in_page .group_form_sign form {
-    width: 82%;
-    height: 88%;
-  }
-  main .sign_in_page .group_form_sign form .footer_form {
-    height: 18%;
-    width: 80%;
-  }
-  main .sign_in_page .group_form_sign form .footer_form .group_forgot {
-    width: 80%;
-    height: 18%;
-  }
-  main .sign_in_page .group_form_sign form .footer_form .group_forgot li a {
-    font-size: 8px;
-  }
-  main .sign_in_page .group_form_sign form .footer_form button {
-    width: 60%;
-    height: 30px;
-  }
-  main .sign_in_page .group_form_sign form .group_input {
-    width: 80%;
-    height: 58%;
-  }
-  main .sign_in_page .group_form_sign form .group_input .enter {
-    width: 100%;
-    height: 32%;
-  }
-  main .sign_in_page .group_form_sign form .group_input .enter label {
-    font-size: 12px;
-  }
-  main .sign_in_page .group_form_sign form .group_input .enter .input {
-    height: 60%;
-  }
-  main .sign_in_page .group_form_sign form .group_input .enter .input span {
-    color: gray;
-  }
-  main .sign_in_page .group_form_sign form .group_input .enter .input input {
-    width: 88%;
-  }
-  main .sign_in_page .bullet {
-    height: 4px;
-    width: 80%;
-  }
-  main .sign_in_page .group_continu {
-    width: 80%;
-    height: 48%;
-  }
-  main .sign_in_page .group_continu .logo {
-    width: 66%;
-    height: 44%;
-  }
-  main .sign_in_page .group_continu .group_continu_app a {
-    width: 84%;
-    height: 30%;
-  }
-  main .sign_in_page .group_continu .group_continu_app a .continu {
-    width: 90%;
-    color: #FFFFFF;
-    height: 90%;
-    box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  main .sign_in_page .group_continu .group_continu_app a .continu img {
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-  }
-  main .sign_in_page .group_continu .group_continu_app a .continu h6 {
-    width: 70%;
-  }
+main {
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  height: 932px;
+  width: 100%;
 }
+main .sign_in_page {
+  width: 90%;
+  height: 68%;
+}
+main .sign_in_page .group_form_sign {
+  width: 100%;
+  height: 48%;
+}
+main .sign_in_page .group_form_sign h1 {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+main .sign_in_page .group_form_sign .h_sign {
+  width: 100%;
+  height: 8%;
+}
+main .sign_in_page .group_form_sign form {
+  width: 82%;
+  height: 88%;
+}
+main .sign_in_page .group_form_sign form .footer_form {
+  height: 18%;
+  width: 80%;
+}
+main .sign_in_page .group_form_sign form .footer_form .group_forgot {
+  width: 80%;
+  height: 18%;
+}
+main .sign_in_page .group_form_sign form .footer_form .group_forgot li a {
+  font-size: 8px;
+}
+main .sign_in_page .group_form_sign form .footer_form button {
+  width: 60%;
+  height: 30px;
+}
+main .sign_in_page .group_form_sign form .group_input {
+  width: 80%;
+  height: 58%;
+}
+main .sign_in_page .group_form_sign form .group_input .enter {
+  width: 100%;
+  height: 32%;
+}
+main .sign_in_page .group_form_sign form .group_input .enter label {
+  font-size: 12px;
+}
+main .sign_in_page .group_form_sign form .group_input .enter .input {
+  height: 60%;
+}
+main .sign_in_page .group_form_sign form .group_input .enter .input span {
+  color: gray;
+}
+main .sign_in_page .group_form_sign form .group_input .enter .input input {
+  width: 88%;
+}
+main .sign_in_page .bullet {
+  height: 4px;
+  width: 80%;
+}
+main .sign_in_page .group_continu {
+  width: 80%;
+  height: 48%;
+}
+main .sign_in_page .group_continu .logo {
+  width: 66%;
+  height: 44%;
+}
+main .sign_in_page .group_continu .group_continu_app a {
+  width: 84%;
+  height: 30%;
+}
+main .sign_in_page .group_continu .group_continu_app a .continu {
+  width: 90%;
+  color: #FFFFFF;
+  height: 90%;
+  box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .sign_in_page .group_continu .group_continu_app a .continu img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+main .sign_in_page .group_continu .group_continu_app a .continu h6 {
+  width: 70%;
+}/*# sourceMappingURL=sign-in.css.map */

@@ -1,0 +1,49 @@
+@import "../components/variable" ;
+@import "../mixins/group-mixins" ;
+@mixin navResponsive {
+    @media only screen and (max-width:420px) {
+       nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 40px;
+        .toggle {
+            display: block;
+            margin-right: 30px;
+            color: white;
+            font-size: 24px;
+        }
+        .logo {
+            width: 20%;
+            img {
+                width: 48px;
+                height: auto;
+            }
+            
+        }
+        .navsign {
+            margin-right: 40px;
+            a {
+                button {
+                    @include button-responsive;
+                }
+                .btn-white {
+                    @include btn;
+                }
+            }
+        }
+        .navbar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            top: 40px;
+            left: 70%;
+            width: 26%;
+            height: 16vh;
+          
+        }
+       }
+    }
+}
