@@ -197,6 +197,11 @@ h1 {
     margin-left: -5%;
     width: 96%;
   }
+  h1 {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 300;
+  }
   .track img {
     width: 80px;
     height: 80px;
