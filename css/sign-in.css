@@ -356,28 +356,7 @@ main .sign_in_page .group_form_sign:hover {
   box-shadow: rgba(250, 117, 0, 0.256) 0px 14px 28px, rgba(250, 117, 0, 0.256) 0px 10px 10px;
 }
 
-@media (max-width: 768px) {
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-transform: uppercase;
-    padding: 10px;
-    background: #141B29;
-    border: 1px solid #1F2839;
-    position: fixed;
-    z-index: 2;
-    left: 0;
-    top: 0;
-    width: 100%;
-  }
-  nav .logo img {
-    width: 80px;
-    height: auto;
-  }
-  nav ul {
-    display: none;
-  }
+@media (max-width: 768px) and (min-width: 426px) {
   main {
     flex-direction: column-reverse;
     justify-content: space-evenly;
@@ -515,6 +494,110 @@ main .sign_in_page .group_form_sign:hover {
   main .sign_in_page .group_continu .group_continu_app a .continu img {
     width: 32px;
     height: 32px;
+    border-radius: 50%;
+  }
+  main .sign_in_page .group_continu .group_continu_app a .continu h6 {
+    width: 70%;
+  }
+}
+@media (max-width: 480px) and (min-width: 320px) {
+  nav .logo img {
+    width: 46px;
+    height: auto;
+  }
+  nav ul {
+    display: none;
+  }
+  main {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    height: 932px;
+    width: 100%;
+  }
+  main .sign_in_page {
+    width: 90%;
+    height: 68%;
+  }
+  main .sign_in_page .group_form_sign {
+    width: 100%;
+    height: 48%;
+  }
+  main .sign_in_page .group_form_sign h1 {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 30px;
+  }
+  main .sign_in_page .group_form_sign .h_sign {
+    width: 100%;
+    height: 8%;
+  }
+  main .sign_in_page .group_form_sign form {
+    width: 82%;
+    height: 88%;
+  }
+  main .sign_in_page .group_form_sign form .footer_form {
+    height: 18%;
+    width: 80%;
+  }
+  main .sign_in_page .group_form_sign form .footer_form .group_forgot {
+    width: 80%;
+    height: 18%;
+  }
+  main .sign_in_page .group_form_sign form .footer_form .group_forgot li a {
+    font-size: 8px;
+  }
+  main .sign_in_page .group_form_sign form .footer_form button {
+    width: 60%;
+    height: 30px;
+  }
+  main .sign_in_page .group_form_sign form .group_input {
+    width: 80%;
+    height: 58%;
+  }
+  main .sign_in_page .group_form_sign form .group_input .enter {
+    width: 100%;
+    height: 32%;
+  }
+  main .sign_in_page .group_form_sign form .group_input .enter label {
+    font-size: 12px;
+  }
+  main .sign_in_page .group_form_sign form .group_input .enter .input {
+    height: 60%;
+  }
+  main .sign_in_page .group_form_sign form .group_input .enter .input span {
+    color: gray;
+  }
+  main .sign_in_page .group_form_sign form .group_input .enter .input input {
+    width: 88%;
+  }
+  main .sign_in_page .bullet {
+    height: 4px;
+    width: 80%;
+  }
+  main .sign_in_page .group_continu {
+    width: 80%;
+    height: 48%;
+  }
+  main .sign_in_page .group_continu .logo {
+    width: 66%;
+    height: 44%;
+  }
+  main .sign_in_page .group_continu .group_continu_app a {
+    width: 84%;
+    height: 30%;
+  }
+  main .sign_in_page .group_continu .group_continu_app a .continu {
+    width: 90%;
+    color: #FFFFFF;
+    height: 90%;
+    box-shadow: rgba(255, 255, 255, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  main .sign_in_page .group_continu .group_continu_app a .continu img {
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
   }
   main .sign_in_page .group_continu .group_continu_app a .continu h6 {
