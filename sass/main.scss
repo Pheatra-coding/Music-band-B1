@@ -21,9 +21,9 @@ body {
 main {
     section {
         img {
-            margin-top: 80px;
+            margin-top: 70px;
             width: 100%;
-            height: 70vh;
+            height: 77vh;
         }
         .text {
             @include center;
@@ -58,6 +58,7 @@ aside {
             column-gap: 100px;
         }
 }
+
 
 @include responsive; 
 @include  responsive-homepage-smartphone;

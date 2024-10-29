@@ -420,4 +420,7 @@ aside .nav_library li .white {
     font-size: 12px;
     font-weight: 300;
   }
+  .group-text button {
+    padding: 8px;
+  }
 }

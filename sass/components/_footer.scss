@@ -1,6 +1,7 @@
 @import '_variable';
 @import '../mixins/group-mixins';
 
+
 footer {
     background: $footer-color ;
     color: $white-color;
@@ -43,6 +44,7 @@ footer {
         }
     }
 }
+
 
 
 @media only screen and (min-width: 426px) and (max-width: 834px){ 

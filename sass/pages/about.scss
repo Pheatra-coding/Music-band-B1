@@ -69,6 +69,7 @@ img {
         margin: 0 20px;
         border-radius: 10px;
         width: 300px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
         h3 {
             font-size: 22px;
@@ -105,8 +106,9 @@ img {
             margin: 0 20px;
             border-radius: 10px;
             width: 220px;
-            height: 50vh;
+            height: 60vh;
             text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
             .group-icon {
                 display: flex;
