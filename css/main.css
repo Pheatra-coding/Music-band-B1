@@ -2,7 +2,7 @@
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-transform: uppercase;
   padding: 10px;
   background: #141B29;
@@ -70,7 +70,7 @@ nav ul button.btn-white {
     padding: 8px 28px;
   }
 }
-@media only screen and (max-width: 420px) {
+@media (max-width: 420px) {
   nav {
     display: flex;
     justify-content: space-evenly;
@@ -90,17 +90,17 @@ nav ul button.btn-white {
     width: 48px;
     height: auto;
   }
-  nav .navsign {
+  nav .nav-sign {
     margin-right: 40px;
   }
-  nav .navsign a button {
+  nav .nav-sign a button {
     background: #EF672A;
     color: #FFFFFF;
     padding: 8px 16px;
     font-size: 8px;
     border: none;
   }
-  nav .navsign a .btn-white {
+  nav .nav-sign a .btn-white {
     background: none;
     border: solid 1px #FFFFFF;
   }
@@ -111,9 +111,25 @@ nav ul button.btn-white {
     flex-direction: column;
     position: absolute;
     top: 40px;
-    left: 70%;
-    width: 26%;
-    height: 16vh;
+    left: 74%;
+    width: 18%;
+    background: rgb(0, 0, 0);
+    height: 14vh;
+    box-shadow: rgba(255, 106, 0, 0.16) 0px 3px 6px, rgba(255, 77, 0, 0.23) 0px 3px 6px;
+  }
+  nav .navbar li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid orange 2px;
+  }
+  nav .navbar li a .pages {
+    background-color: aqua;
+  }
+  nav .navbar li a {
+    font-size: 10px;
+    padding: 10px 16px;
   }
 }
 .cards {
