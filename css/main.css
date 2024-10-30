@@ -114,10 +114,14 @@ nav ul button.btn-white {
     left: 74%;
     width: 18%;
     background: rgb(0, 0, 0);
-    height: 18vh;
+    height: 14vh;
     box-shadow: rgba(255, 106, 0, 0.16) 0px 3px 6px, rgba(255, 77, 0, 0.23) 0px 3px 6px;
   }
   nav .navbar li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-bottom: solid orange 2px;
   }
   nav .navbar li a .pages {
@@ -125,6 +129,7 @@ nav ul button.btn-white {
   }
   nav .navbar li a {
     font-size: 10px;
+    padding: 12px 16px;
   }
 }
 .cards {
