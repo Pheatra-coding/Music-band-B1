@@ -370,10 +370,6 @@ body {
   margin: 0;
 }
 
-.input_field[type=number] {
-  -moz-appearance: textfield;
-}
-
 footer {
   margin-top: 40px;
 }
