@@ -16,6 +16,14 @@
         }
 }
 }
+@mixin Respnosive-buy-form{
+    @media only screen and (min-width: 426px) and (max-width: 834px){
+        .modal {
+            margin-top: 15vh;
+            height: 50vh;
+          }
+    }
+}
 
 // phone
 @mixin Responsive_phone_submitOwn_library{
@@ -56,4 +64,18 @@
         }
 
 }
+}
+@mixin Respnosive-buy-form-phone{
+    @media only screen and (max-width: 425px) {
+        .modal {
+            height: 65vh;
+            width: 90%;
+            .payment--options button  {
+            display: none;
+           }
+           .separator{
+            display: none;
+           }
+          }
+     }
 }

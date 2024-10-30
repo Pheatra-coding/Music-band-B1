@@ -59,6 +59,9 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+.buy-button a{
+    color: $button-color
+}
 
 .buy-button:hover {
     background-color: $button-color;
