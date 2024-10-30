@@ -110,11 +110,11 @@ nav ul button.btn-white {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    top: 40px;
+    top: 60px;
     left: 74%;
     width: 18%;
     background: rgb(0, 0, 0);
-    height: 14vh;
+    height: 22vh;
     box-shadow: rgba(255, 106, 0, 0.16) 0px 3px 6px, rgba(255, 77, 0, 0.23) 0px 3px 6px;
   }
   nav .navbar li {
@@ -450,4 +450,4 @@ main .map-container strong {
     width: 330px;
     height: 200px;
   }
-}/*# sourceMappingURL=contact.css.map */
+}
