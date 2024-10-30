@@ -59,6 +59,10 @@ nav {
           @include btn;
         }
     }
+
+    .toggle {
+        display: none;
+    }
 }
 
 

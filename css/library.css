@@ -57,6 +57,9 @@ nav ul button.btn-white {
   background: none;
   border: solid 1px #FFFFFF;
 }
+nav .toggle {
+  display: none;
+}
 
 @media only screen and (min-width: 426px) and (max-width: 834px) {
   nav ul {

@@ -58,6 +58,9 @@ nav ul button.btn-white {
   background: none;
   border: solid 1px #FFFFFF;
 }
+nav .toggle {
+  display: none;
+}
 
 @media only screen and (min-width: 426px) and (max-width: 834px) {
   nav ul {
@@ -360,7 +363,7 @@ footer .follow-us div.social-media img {
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-transform: uppercase;
   padding: 10px;
   background: #141B29;
@@ -415,6 +418,9 @@ nav ul button.btn-white {
   background: none;
   border: solid 1px #FFFFFF;
 }
+nav .toggle {
+  display: none;
+}
 
 @media only screen and (min-width: 426px) and (max-width: 834px) {
   nav ul {
@@ -428,7 +434,7 @@ nav ul button.btn-white {
     padding: 8px 28px;
   }
 }
-@media only screen and (max-width: 420px) {
+@media (max-width: 420px) {
   nav {
     display: flex;
     justify-content: space-evenly;
@@ -448,17 +454,17 @@ nav ul button.btn-white {
     width: 48px;
     height: auto;
   }
-  nav .navsign {
+  nav .nav-sign {
     margin-right: 40px;
   }
-  nav .navsign a button {
+  nav .nav-sign a button {
     background: #EF672A;
     color: #FFFFFF;
     padding: 8px 16px;
     font-size: 8px;
     border: none;
   }
-  nav .navsign a .btn-white {
+  nav .nav-sign a .btn-white {
     background: none;
     border: solid 1px #FFFFFF;
   }
@@ -468,11 +474,11 @@ nav ul button.btn-white {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    top: 40px;
+    top: 60px;
     left: 74%;
     width: 18%;
     background: rgb(0, 0, 0);
-    height: 14vh;
+    height: 22vh;
     box-shadow: rgba(255, 106, 0, 0.16) 0px 3px 6px, rgba(255, 77, 0, 0.23) 0px 3px 6px;
   }
   nav .navbar li {
@@ -583,11 +589,11 @@ body {
 .modal {
   margin: auto;
   margin-top: 20vh;
-  background: #FFFFFF;
+  background: rgb(200, 198, 200);
   box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
   border-radius: 26px;
   max-width: 600px;
-  height: 80vh;
+  height: 100vh;
 }
 
 .form {
@@ -600,6 +606,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .payment--options {
@@ -632,7 +639,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   gap: 10px;
-  color: #8B8E98;
+  color: #050c21;
   margin: 0 10px;
 }
 
@@ -681,7 +688,7 @@ body {
 
 .input_label {
   font-size: 10px;
-  color: #8B8E98;
+  color: #292d3b;
   font-weight: 600;
 }
 
@@ -711,7 +718,7 @@ body {
   color: #ffffff;
   font-size: 13px;
   font-weight: 700;
-  background: linear-gradient(180deg, #363636 0%, #1B1B1B 50%, #000000 100%);
+  background: #EF672A;
   box-shadow: 0px 0px 0px 0px #FFFFFF, 0px 0px 0px 0px #000000;
   transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
 }
@@ -725,10 +732,6 @@ body {
 .input_field::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
-}
-
-.input_field[type=number] {
-  -moz-appearance: textfield;
 }
 
 footer {
