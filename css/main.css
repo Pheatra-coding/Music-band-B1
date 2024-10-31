@@ -583,6 +583,7 @@ footer .follow-us div.social-media img {
 }
 
 body {
+  font-family: "Poppins", sans-serif;
   background: #141B29;
 }
 
@@ -864,4 +865,4 @@ aside .card-container {
   main aside .card-container .cards .group-pf .group-p p {
     font-size: 10px;
   }
-}
+}/*# sourceMappingURL=main.css.map */
