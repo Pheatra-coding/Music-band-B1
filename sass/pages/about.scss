@@ -70,6 +70,7 @@ img {
         border-radius: 10px;
         width: 300px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
 
         h3 {
             font-size: 22px;
@@ -82,6 +83,10 @@ img {
             font-size: 16px;
             color: lighten($secondary-color, 20%);
         }
+    }
+
+    .card:hover {
+        transform: scale(1.05);
     }
 }
 
@@ -109,6 +114,7 @@ img {
             height: 54vh;
             text-align: center;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
 
             .group-icon {
                 display: flex;
@@ -172,8 +178,14 @@ img {
                         height: 30px;
                         border-radius: 15px;
                     }
+
+                    
                 }
             }
+        }
+
+        .team-card:hover {
+            transform: scale(1.05);
         }
     }
 }

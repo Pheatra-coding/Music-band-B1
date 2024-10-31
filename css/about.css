@@ -271,6 +271,7 @@ img {
   border-radius: 10px;
   width: 300px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .mission-vision .card h3 {
   font-size: 22px;
@@ -281,6 +282,9 @@ img {
 .mission-vision .card p {
   font-size: 16px;
   color: #77b0cb;
+}
+.mission-vision .card:hover {
+  transform: scale(1.05);
 }
 
 .team-section {
@@ -305,6 +309,7 @@ img {
   height: 54vh;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .team-section .team-cards .team-card .group-icon {
   display: flex;
@@ -358,6 +363,9 @@ img {
   width: 30px;
   height: 30px;
   border-radius: 15px;
+}
+.team-section .team-cards .team-card:hover {
+  transform: scale(1.05);
 }
 
 .line {
@@ -475,4 +483,4 @@ h2 {
     width: 50px;
     height: 50px;
   }
-}/*# sourceMappingURL=about.css.map */
+}
