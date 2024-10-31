@@ -3,7 +3,7 @@ nav {
   align-items: center;
   justify-content: space-evenly;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 12px;
   background: #141B29;
   border: 1px solid #1F2839;
   position: fixed;
@@ -29,6 +29,7 @@ nav ul {
 nav ul li a {
   color: #FFFFFF;
   text-decoration: none;
+  font-weight: 400;
 }
 nav ul li a:hover {
   text-shadow: rgba(255, 145, 0, 0.824) 18px 14px 25px, rgba(255, 132, 0, 0.12) 0px -12px 30px, rgba(255, 111, 0, 0.578) 0px 8px 16px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -8px 12px;
