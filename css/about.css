@@ -147,6 +147,9 @@ footer img {
   width: 150px;
   height: 90px;
 }
+footer .about-logo-img {
+  margin-top: 46px;
+}
 footer .contact-group h2 {
   font-size: 24px;
   font-weight: 200;
