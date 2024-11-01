@@ -200,10 +200,11 @@
                 margin: auto;
                 .card-container {
                     margin-top: -60px;
+                    margin-left: -30px;
                     .cards {
-                        width: 85%;
+                        width: 98%;
                         img {
-                            height: 220px;
+                            height: 240px;
                         }
 
                         .group-pf {
@@ -521,7 +522,11 @@
             margin-top: -20px;
             row-gap: 20px;
             .video {
-                margin-left: -10px;
+                margin-left: -40px;
+                iframe {
+                    width: 390px;
+                    height: 28vh;
+                }
                 .pf {
                     img {
                         width: 30px;

@@ -115,7 +115,7 @@ nav .toggle {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 40px;
     left: 74%;
     width: 18%;
     background: rgb(0, 0, 0);
@@ -476,7 +476,7 @@ nav .toggle {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 40px;
     left: 74%;
     width: 18%;
     background: rgb(0, 0, 0);
@@ -852,12 +852,13 @@ aside .card-container {
   }
   main aside .card-container {
     margin-top: -60px;
+    margin-left: -30px;
   }
   main aside .card-container .cards {
-    width: 85%;
+    width: 98%;
   }
   main aside .card-container .cards img {
-    height: 220px;
+    height: 240px;
   }
   main aside .card-container .cards .group-pf img {
     width: 60px;

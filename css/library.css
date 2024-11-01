@@ -114,7 +114,7 @@ nav .toggle {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 40px;
     left: 74%;
     width: 18%;
     background: rgb(0, 0, 0);
@@ -299,8 +299,9 @@ aside .nav_library {
   display: flex;
   -moz-column-gap: 8px;
        column-gap: 8px;
-  width: 80%;
+  width: 90%;
   margin: auto;
+  margin-left: 130px;
 }
 aside .nav_library li {
   margin-bottom: 10px;
@@ -459,7 +460,11 @@ aside .nav_library li .white {
     row-gap: 20px;
   }
   .video-container .video {
-    margin-left: -10px;
+    margin-left: -40px;
+  }
+  .video-container .video iframe {
+    width: 390px;
+    height: 28vh;
   }
   .video-container .video .pf img {
     width: 30px;
