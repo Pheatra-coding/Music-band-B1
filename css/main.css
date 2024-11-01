@@ -840,7 +840,7 @@ aside .card-container {
 }
 @media only screen and (max-width: 425px) {
   main {
-    margin-left: 40px;
+    margin-left: 18px;
     margin-top: 37%;
   }
   main section {
@@ -854,7 +854,7 @@ aside .card-container {
     margin-top: -60px;
   }
   main aside .card-container .cards {
-    width: 85%;
+    width: 96%;
   }
   main aside .card-container .cards img {
     height: 220px;
@@ -867,4 +867,4 @@ aside .card-container {
   main aside .card-container .cards .group-pf .group-p p {
     font-size: 10px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
